@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+
+@-ms-viewport	{
+	width: device-width;
+}
+
+#narrow {
+	display: none;
+}
+
+@media (max-width: 600px) {
+ 	#wide {
+		display: none;
+	}
+#narrow {
+	display: block;
+	position: relative;
+}
+
+  #toggle-btn {
+    border: none;
+    position: fixed;
+    top: 1em;
+    right: 5%;
+    cursor: pointer;
+    background: none;
+    z-index: 10000;
+  }
+
+  #toggle-btn:focus { /*　クリックしたときの青色の枠線を削除　*/
+    outline: none;
+  }
+
+  #toggle-btn i {
+    color: #274;
+    float: right;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+
+  #toggle-btn span {
+    display: inline-block;
+    text-indent: -9999px;
+  }
+
+  #toggle-menu {
+    display: none; /*　初期状態では非表示　*/
+  }
+  .toggle-menu {
+	background-color: rgba(255, 255, 255, 0.9);
+	position: fixed;
+    top: 0;
+    right: 0;
+/*    bottom: 0;*/
+    left: 0;
+/*    height: 300px;*/
+    width: 100%;
+	z-index: 10000;
+  }
+
+
+  .toggle-menu li {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0.5em 5%;
+    text-align: right;
+    float: none;
+  }
+
+  .toggle-menu li a {
+
+  }
+
+  .toggle-menu li a:hover {
+    color: #f90;
+  }
+}
+
+
+/* ########### 600px以上 ########## */
+@media (min-width: 600px) {
+ 	#narrow {
+		display: none;
+	}
+}
+
