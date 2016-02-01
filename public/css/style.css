@@ -112,6 +112,7 @@ h3 {
 	color: #f90;
 }
 
+
 /* HERO SECTION */
 .hero {
 	border-style: none;
@@ -131,7 +132,7 @@ h3 {
 	letter-spacing: 0.2em;
 	line-height: 1.1em;
 	text-align: right;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+/*	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);*/
 	padding: 0;
 	position: absolute;
 	top: 1.25em;
@@ -139,8 +140,21 @@ h3 {
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
+	animation-name: 'anime';
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-delay: 0;
+	animation-iteration-count: 1;
+	animation-direction:alternate;
 }
-
+@keyframes 'anime' {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
 
 /* COMPANY SECTION */
 .multicolumnbox {
