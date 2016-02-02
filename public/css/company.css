@@ -7,45 +7,41 @@
 	color: #333;
 	display: block;
 	font-family: Test, 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
-	/*font-weight: 900;*/
 	letter-spacing: 0.5em;
-/*	line-height: 1.1em;*/
+	margin: 1em 0 0 0;
+	padding: 0;
 	text-align: right;
-	text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
-/*	padding: 0;
-	position: absolute;*/
 	top: 1.75em;
 	right: 0%;
-/*	bottom: 0;
-	left: 0;
-	z-index: 1000;*/
 }
 
 /* MESSAGE SECTION */
 .message .container {
-	max-width: 60em;
+	width: 70%;
+	max-width: 50em;
 }
 .message .multicolumnbox {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
 }
 .message .column_left{
-  flex: 0 0 40%;
+	flex: 0 0 30%;
 }
 .message .column_right{
-  flex: 0 0 60%;
+	flex: 0 0 70%;
 }
 .message .column-box {
 	margin: 0em;
 	padding: 0em;
-	max-width: 600px;
+	max-width: 100%;
 	text-align: left;
 }
 .message img {
 	display: block;
-	width: 70%;
-	margin: 0 10% 0 auto;
-	max-width: 200px;
+	width: 80%;
+	margin: 0 auto;
+	max-width: 250px;
 	padding: 1em;
 	border: none;
 	border-radius: 8%;
@@ -63,16 +59,51 @@
 	color: #fff;
 }
 .phirosophy .container {
-	max-width: 60em;
+	width: 70%;
+	max-width: 40em;
 }
 .phirosophy h3 {
 	font-size: 1.5em;
 	margin: 2em 0 0 0;
-	padding: 0 10%;
+	padding: 0;
+	text-align: center;
 }
 .phirosophy p {
-	padding: 0 10%;
+	padding: 0;
 }
+
+
+/* SUMMARY SECTION */
+.summary .container {
+/*	width: 70%;*/
+	max-width: 50em;
+}
+.summary table {
+	margin: 2em 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+.summary th {
+	border-bottom: #fff 1px solid;
+	color: #fff;
+	text-align: right;
+	background: #274;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	width: 10em
+}
+.summary tr:last-child th  {
+	border-bottom: #274 1px solid;
+}
+.summary td {
+	border: #274 1px solid;
+	text-align: left;
+	padding: 10px 20px 10px 20px;
+}
+.summary li {
+	margin-left: -20px;
+}
+
 
 
 /* @media */
@@ -87,6 +118,18 @@
 	.column-box p {
 		font-size: 1em;
 	}
+
+	/* PHIROSOPY SECTION */
+	.phirosophy h3 {
+		text-align: left;
+	}
+
+	/* SUMMARY SECTION */
+	.summary table * {
+		font-size: 0.95em;
+	}
+
+
 
 	/* RECURITE SECTION */
 	.recruit .picup-recuruite p {
@@ -149,6 +192,9 @@
 	}
 
 	/* MESSAGE SECTION */
+	.message .container {
+		width: 80%;
+	}
 	.message .column_left{
 	  flex: 0 0 100%;
 	}
@@ -165,7 +211,42 @@
 	/* PHIROSOPY SECTION */
 	.phirosophy h3 {
 		font-size: 1.2em;
+		text-align: left;
 	}
+
+	/* SUMMARY SECTION */
+	.summary .container {
+		width: 80%;
+	}
+	.summary table {
+		margin: 2em 0;
+		width: 100%;
+		border-collapse: collapse;
+	}
+	.summary th {
+		display: block;
+	/*	border-bottom: #fff 1px solid;*/
+		border: #274 1px solid;;
+		text-align: center;
+		padding: 10px 20px 10px 20px;
+		width: 100%;
+	}
+	/*.summary tr:last-child th  {
+		border-bottom: #274 1px solid;
+	}*/
+	.summary td {
+		display: block;
+	/*	border: #274 1px solid;*/
+		border: #274 1px solid;
+		text-align: left;
+		padding: 10px 20px 10px 20px;
+		width: 100%;
+	}
+	.summary li {
+		margin-left: -20px;
+	}
+
+
 
 
 	/* FOOTER */

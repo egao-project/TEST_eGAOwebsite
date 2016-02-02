@@ -128,15 +128,13 @@ h3 {
 	color: #fff;
 	display: block;
 	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
-	/*font-weight: 900;*/
 	letter-spacing: 0.2em;
 	line-height: 1.1em;
 	text-align: right;
-/*	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);*/
 	padding: 0;
 	position: absolute;
 	top: 1.25em;
-	right: 0%;
+	right: 0;
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
@@ -157,7 +155,7 @@ h3 {
 }
 
 /* COMPANY SECTION */
-.multicolumnbox {
+.company .multicolumnbox {
   display: flex;
   flex-wrap: wrap;
 }
@@ -278,14 +276,14 @@ h3 {
 		font-size: 2em;
 	}
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 	h3 {
 		font-size: 1.2em;
 	}
-	.section-title {
-		letter-spacing: 0.2em;
-	}
+/*	.section-title {
+		letter-spacing: 0.5em;
+	}*/
 	.section-subtitle {
 		font-size: 0.7em;
 		margin: 0 auto 2em auto;
