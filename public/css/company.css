@@ -279,15 +279,6 @@
 		margin: 2em 0;
 		border-collapse: collapse;
 	}
-.summary th {
-	border-bottom: #fff 1px solid;
-	color: #fff;
-	text-align: right;
-	background: #274;
-	padding: 10px 20px 10px 20px;
-	font-weight: bold;
-	width: 10em
-}
 	.summary th {
 		border: none;
 		display: block;
