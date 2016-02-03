@@ -12,10 +12,10 @@
 * {
 	/*background-co÷lor: #eee;*/
 	color: #274;
-}
-body　p {
-	margin: 0;
 	font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+}
+p {
+	margin: 0;
 }
 
 a {
