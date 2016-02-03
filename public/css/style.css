@@ -118,9 +118,10 @@ h3 {
 /*	background: url('../img/eGAO_top.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;*/
-	height: 500px;
+	height: auto;
 }
 .hero .container {
+	padding: 0;
 	position: relative;
 }
 .hero .container h1 {
@@ -128,15 +129,10 @@ h3 {
 	display: block;
 	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
 	letter-spacing: 0.2em;
-	line-height: 1.1em;
+	line-height: 1.2em;
 	text-align: right;
-	padding: 0;
-	position: absolute;
-	top: 1.25em;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 1000;
+	margin: 0;
+	padding: 1.9em 0;
 	animation-name: 'anime';
 	animation-duration: 3s;
 	animation-timing-function: ease;
@@ -253,8 +249,7 @@ h3 {
 
 	/* HERO SECTION*/
 	.hero .container h1 {
-		top: 2.5em;
-		right: -5%;
+
 	}
 
 	/* COMPANY SECTION */
@@ -315,12 +310,8 @@ h3 {
 }
 
 	/* HERO SECTION*/
-	.hero {
-		height: 300px;
-	}
 	.hero .container h1 {
-		top: 2.5em;
-		right: -5%;
+		padding: 3.9em 0;
 	}
 
 	/* COMPANY SECTION */
