@@ -154,6 +154,9 @@
 @media (min-width: 600px) and (max-width: 820px) {
 
 	/* HERO SECTION*/
+	.hero .container h1 {
+		padding: 3em 0;
+	}
 
 	/* MESSAGE SECTION */
 	.column-box p {
@@ -208,7 +211,7 @@
 
 	/* HERO SECTION*/
 	.hero .container h1 {
-		padding: 4.5em 0;
+		padding: 5.5em 0;
 	}
 
 	/* MESSAGE SECTION */

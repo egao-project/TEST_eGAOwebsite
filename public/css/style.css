@@ -249,7 +249,7 @@ h3 {
 
 	/* HERO SECTION*/
 	.hero .container h1 {
-
+		padding: 2.4em 0;
 	}
 
 	/* COMPANY SECTION */
@@ -311,7 +311,7 @@ h3 {
 
 	/* HERO SECTION*/
 	.hero .container h1 {
-		padding: 3.9em 0;
+		padding: 4.9em 0;
 	}
 
 	/* COMPANY SECTION */
