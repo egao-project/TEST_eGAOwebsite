@@ -22,9 +22,10 @@ a {
 	text-decoration: none;
 }
 .container {
-	width: 90%;
 	margin: 0 auto;
 	padding: 4em 0;
+	width: 90%;
+	max-width: 1024px;
 }
 a.btn {
 	background-color: rgba(255, 255, 255, 0.9);
@@ -91,7 +92,9 @@ input, button, textarea, select {
 input[type="text"], textarea,
 input[type="email"], input {
 	outline: none;
-	border: 1px solid #274;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 4px;
 	-webkit-transition: all .3s;
 	transition: all .3s;
 	padding: 0.3em 1em;
