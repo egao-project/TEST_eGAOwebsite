@@ -28,11 +28,11 @@
 
 <div class="header section">
     <div class="container">
-        <h1><a href="#">株式会社eGAO</a></h1>
+        <h1><a href="../index.html">株式会社eGAO</a></h1>
         <nav id="wide">
             <div class="menu">
                 <ul>
-                    <li><a href="company/index.html">会社概要</a></li>
+                    <li><a href="index.html">会社概要</a></li>
                     <li><a href="egao-project/index.html">笑顔プロジェクト</a></li>
                     <li><a href="recruit/index.html">採用情報</a></li>
                 </ul>
@@ -42,8 +42,8 @@
             <buttn type="button" id="toggle-btn"><span>MENU</span><i class="fa fa-bars"></i></button>
             <div class="toggle-menu" id="toggle-menu">
                 <ul>
-                    <li><a href="#">SITE TOP</a></li>
-                    <li><a href="company/index.html">会社概要</a></li>
+                    <li><a href="../index.html">SITE TOP</a></li>
+                    <li><a href="../index.html">会社概要</a></li>
                     <li><a href="egao-project/index.html">笑顔プロジェクト</a></li>
                     <li><a href="recruit/index.html">採用情報</a></li>
                 </ul>
@@ -179,19 +179,23 @@
     </div>
 </div>
 
-<div class="recruit section">
+<div class="contact section">
 	<div class="container">
-		<h2 class="section-title">笑顔スタッフ大募集</h2>
-		<p class="section-subtitle">笑顔で笑顔を生み出す会社。<br>
-		素敵な笑顔のアナタを大募集！</p>
-		<div class="picup-recuruite">
-			<p>WEBアプリケーションを中心とした、オープン系開発作業。</p>
-			<p>ITスペシャリストを目指している方。</p>
-			<p>“面白い”、“楽しい”事を考える、生み出す方が好きな方。</p>
-			<p>学歴不問。システム開発の経験1年以上ある方、<br>
-			ブランクのある方や経験の浅い方も大歓迎！</p>
-		</div>
-		<a class="btn" href="#">採用情報</a>
+		<h2 class="section-title"><span>お問い合わせ</span></h2>
+        <form action="/my-handling-form-page" method="post">
+            <p>
+                <label for="name">お名前:</label>
+                <input type="text" id="name" placeholder="お名前" />
+            </p>
+            <p>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" placeholder="E-Mail"/>
+            </p>
+            <p>
+                <label for="msg">本文:</label>
+                <textarea id="msg" placeholder="本文"></textarea>
+            </p>
+        </form>
 	</div>
 </div>
 
