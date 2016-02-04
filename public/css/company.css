@@ -207,6 +207,9 @@
 	h3 {
 		font-size: 1.2em;
 	}
+	.container {
+		padding: 2em 0;
+	}
 	.section-title {
 		letter-spacing: 0.2em;
 	}
