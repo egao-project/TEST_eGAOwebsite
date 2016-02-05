@@ -1,0 +1,103 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{margin:0;
+	background:#fff;
+
+}
+	
+video{position:fixed;
+	top:50%;left:50%;
+	min-width:100%;
+	min-height:100%;
+	width:auto;
+	height:auto;
+	z-index:-100000;
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	transform:translateX(-50%) translateY(-50%);
+	/*background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) no-repeat;*/
+	background-size:cover;
+	-webkit-transition:1sopacity;
+	transition:1s opacity
+}
+video{
+	  -webkit-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+}
+
+.wrapper {
+		min-width:100%;
+	min-height:100%;
+	/*background-color: rgba(100, 100, 100, 0.5);*/
+}
+
+.hero .container h1 {
+	color: #fff;
+	/*margin-right: -1em;*/
+	padding: 1.9em 0 0.2em 1em;
+	/*letter-spacing: 0.5em;*/
+	text-align: center;
+}
+.hero .container menu {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+.hero .container menu * {
+	text-align: center;
+}
+.hero .container h2 {
+	font-size: 2em;	
+	/*display: inline;*/
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 1.2em;
+	text-align: center;
+/*	margin: auto 0;*/
+	padding: 0 1em;
+	animation-name: 'anime';
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-delay: 0;
+	animation-iteration-count: 1;
+	animation-direction:alternate;
+}
+/*
+.header .menu {
+	float: right;
+	margin: 0;
+	padding: 0.1em;
+}*/
+.hero menu {
+	margin: 1em auto;
+}
+.hero li {
+	display: inline-block;
+}
+.hero a:hover {
+	color: #f90;
+}
+
+
+
+.hero .container h2:last-child {
+	padding-bottom: 2.5em;
+}
+
+
+
+
+.recruit {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* @media */
+@media (min-width: 600px) and (max-width: 820px) {
+		min-width:50%;
+	min-height:50%;
+
+}

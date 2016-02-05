@@ -9,8 +9,12 @@
 }
 
 /* GENERAL */
-* {
-	/*background-co÷lor: #eee;*/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
 	color: #274;
 	font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
 }
@@ -18,11 +22,12 @@ a {
 	text-decoration: none;
 }
 .container {
-	width: 90%;
 	margin: 0 auto;
-	padding: 4em 0;
+	padding: 3em 0;
+	width: 90%;
+	max-width: 1024px;
 }
-a.btn {
+.btn {
 	background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #f90;
     border-radius: 6px;
@@ -33,12 +38,12 @@ a.btn {
     text-decoration: none;
     padding: 0.5em 1.5em 0.5em 2em;
     outline: none;
-    width: 100px;
+    width: 10em;
 	color: #f90;
 	letter-spacing: 0.5em;	
 	text-align: center;	
 }
-a.btn:hover {
+.btn:hover {
     background: #f90;
     color: #fff;
     font-weight: bold;
@@ -48,10 +53,9 @@ h1 {
 
 }
 h2 {
-	font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
 	font-size: 2.5em;
 }
-h2 span {
+h2, h2 span {
 	font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
 }
 h3 {
@@ -72,9 +76,40 @@ h3 {
 	margin: 0 auto 2em auto;
 	text-align: center;
 }
+input, button, textarea, select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+}
+input[type="text"], textarea,
+input[type="email"], input {
+	outline: none;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	padding: 0.3em 1em;
 
-
-
+}
+input[type="text"]:focus, textarea:focus,
+input[type="email"]:focus:focus, input:focus {
+	box-shadow: 0 0 7px #274;
+	border: 1px solid #274;
+}
+label {
+	display: none;
+}
+textarea {
+	min-height: 10em;
+}
 
 /* HEADER SECTION */
 .header{
@@ -223,7 +258,12 @@ h3 {
 .egaopj .picup-pj p {
 	font-size: 2em;
 }
-
+.egaopj .btn{
+	color: #f90;
+}
+.egaopj .btn:hover {
+	color: #fff;
+}
 
 /* RECURITE SECTION */
 .recruit .picup-recuruite {
