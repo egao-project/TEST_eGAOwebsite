@@ -133,12 +133,26 @@ h3 {
 	text-align: right;
 	margin: 0;
 	padding: 1.9em 0;
-	animation-name: 'anime';
-	animation-duration: 3s;
-	animation-timing-function: ease;
-	animation-delay: 0;
-	animation-iteration-count: 1;
-	animation-direction:alternate;
+	-webkit-animation-name: 'anime';
+	        animation-name: 'anime';
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+	-webkit-animation-timing-function: ease;
+	        animation-timing-function: ease;
+	-webkit-animation-delay: 0;
+	        animation-delay: 0;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-direction:alternate;
+	        animation-direction:alternate;
+}
+@-webkit-keyframes 'anime' {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
 }
 @keyframes 'anime' {
 	0% {
@@ -151,11 +165,19 @@ h3 {
 
 /* COMPANY SECTION */
 .company .multicolumnbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .column {
-  flex: 0 0 33.3333%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.3333%;
+      -ms-flex: 0 0 33.3333%;
+          flex: 0 0 33.3333%;
 }
 .column-box {
 	margin-bottom: 2em;
@@ -316,7 +338,10 @@ h3 {
 
 	/* COMPANY SECTION */
 	.column {
-	  flex: 0 0 100%;
+	  -webkit-box-flex: 0;
+	  -webkit-flex: 0 0 100%;
+	      -ms-flex: 0 0 100%;
+	          flex: 0 0 100%;
 	}
 
 	/* RECURITE SECTION */
