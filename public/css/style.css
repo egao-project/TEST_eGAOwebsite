@@ -9,7 +9,7 @@
 }
 
 /* GENERAL */
-*, *:before, *:after {
+* {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
          -o-box-sizing: border-box;
@@ -223,6 +223,7 @@ textarea {
 	background-position: 50% 50%;
 	background-size: cover;
 	height: 500px;*/
+
 }
 .egaopj .picup-pj {
 	background-color: rgba(0, 0, 0, 0.4);
