@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
-
-
 @-ms-viewport	{
 	width: device-width;
 }
 
-#narrow {
+body {
+    position: relative;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.slide_menu {
 	display: none;
 }
 
@@ -14,9 +18,8 @@
  	#wide {
 		display: none;
 	}
-#narrow {
+.slide_menu {
 	display: block;
-	position: relative;
 }
 
   #toggle-btn {
@@ -26,6 +29,7 @@
     right: 5%;
     cursor: pointer;
     background: none;
+    text-align: right;  
     z-index: 10000;
   }
 
@@ -42,48 +46,37 @@
   }
 
   #toggle-btn span {
-    display: inline-block;
-    text-indent: -9999px;
+    display: none;
   }
-
-  #toggle-menu {
-    display: none; /*　初期状態では非表示　*/
-  }
-  .toggle-menu {
-	background-color: rgba(255, 255, 255, 0.9);
-	position: fixed;
-    top: 0;
-    right: 0;
-/*    bottom: 0;*/
-    left: 0;
-/*    height: 300px;*/
-    width: 100%;
-	z-index: 10000;
+  .slide_menu {
+    background-color: #274;
+    position: fixed;
+    top: 3.1em;
+    right: -100vw;
+    width: 100vw;
+    height: 100%;
+    z-index: 10;
   }
 
 
-  .toggle-menu li {
+  .slide_menu li {
   	list-style-type: none;
-  	margin: 0;
-  	padding: 0.5em 5%;
-    text-align: right;
+  	margin: 0 0 0 -2em;
+  	padding: 0.5em 0;
+    text-align: center;
     float: none;
   }
 
-  .toggle-menu li a {
-
+  .slide_menu li a {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
   }
 
-  .toggle-menu li a:hover {
+  .slide_menu li a:hover {
     color: #f90;
   }
 }
 
 
-/* ########### 600px以上 ########## */
-@media (min-width: 600px) {
- 	#narrow {
-		display: none;
-	}
-}
 

@@ -18,6 +18,13 @@
 	color: #274;
 	font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
 }
+
+body {
+    position: relative;
+    left: 0;
+    overflow-x: hidden;
+}
+
 a {
 	text-decoration: none;
 }
@@ -25,7 +32,7 @@ a {
 	margin: 0 auto;
 	padding: 3em 0;
 	width: 90%;
-	max-width: 1024px;
+	max-width: 1000px;
 }
 .btn {
 	background-color: rgba(255, 255, 255, 0.9);
@@ -113,10 +120,16 @@ textarea {
 
 /* HEADER SECTION */
 .header{
+	background: rgba(255, 255, 255, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	/*text-align: center;*/
 	vertical-align: middle;
 	margin: 0;
 	padding: 0;
+	z-index: 1;
 }
 .header .container {
 	padding: 0;
@@ -150,9 +163,7 @@ textarea {
 /* HERO SECTION */
 .hero {
 	border-style: none;
-/*	background: url('../img/eGAO_top.jpg') no-repeat;
-	background-position: 50% 50%;
-	background-size: cover;*/
+	margin: 2.1em 0 0 0;
 	height: auto;
 }
 .hero .container {

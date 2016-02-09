@@ -28,26 +28,23 @@
 <div class="header section">
 	<div class="container">
 		<h1><a href="#">株式会社eGAO</a></h1>
-     	<nav id="wide">
-     		<div class="menu">
-     			<ul>
-                    <li><a href="company/index.html">会社概要</a></li>
-                    <li><a href="egao-project/index.html">笑顔実績</a></li>
-                    <li><a href="recruit/index.html">採用情報</a></li>
-        		</ul>
-     		</div>
+     	<nav class="menu" id="wide">
+     		<ul>
+                <li><a href="company/index.html">会社概要</a></li>
+                <li><a href="egao-project/index.html">笑顔実績</a></li>
+                <li><a href="recruit/index.html">採用情報</a></li>
+        	</ul>
      	</nav>
-     	<nav id="narrow">
-     		<buttn type="button" id="toggle-btn"><span>MENU</span><i class="fa fa-bars"></i></button>
-     		<div class="toggle-menu" id="toggle-menu">
-     			<ul>
-					<li><a href="#">SITE TOP</a></li>
-                    <li><a href="company/index.html">会社概要</a></li>
-                    <li><a href="egao-project/index.html">笑顔プロジェクト</a></li>
-                    <li><a href="recruit/index.html">採用情報</a></li>
-        		</ul>
-     		</div>
-     	</nav>
+        <nav class="slide_menu" id="slide_menu">
+            <ul>
+                <li><a href="company/index.html">▲</a></li>
+                <li><a href="company/index.html">会社概要</a></li>
+                <li><a href="egao-project/index.html">笑顔実績</a></li>
+                <li><a href="recruit/index.html">採用情報</a></li>
+            </ul>
+            <img src="img/eGAOsmileWhite.svg" class="column-image">
+            <button id="toggle-btn"><span>Menu</span><i class="fa fa-bars"></i></button>
+        </nav> 
 	</div>
 </div>
 
@@ -144,6 +141,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 <script src="js/prefixfree.js"></script>
 <script src="js/parallax.js"></script>
 <script src="js/nav.js"></script>
