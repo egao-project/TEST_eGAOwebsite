@@ -30,7 +30,7 @@ body {
     cursor: pointer;
     background: none;
     text-align: right;  
-    z-index: 10000;
+    z-index: 100;
   }
 
   #toggle-btn:focus { /*　クリックしたときの青色の枠線を削除　*/
