@@ -127,7 +127,7 @@ textarea {
 	vertical-align: middle;
 	margin: 0;
 	padding: 0;
-	z-index: 1;
+	z-index: 10;
 }
 .header .container {
 	padding: 0;
@@ -172,6 +172,7 @@ textarea {
 	padding: 0;
 	position: relative;
 	height: auto;
+	z-index: 0;
 }
 .hero .container h1 {
 	color: #fff;
