@@ -7,7 +7,7 @@
 html {
   position: relative;
   overflow-x: hidden;
-  z-index: 100;
+  z-index: 0;
 }
 body {
     margin: 0;
@@ -20,6 +20,10 @@ body {
 }
 
 @media (max-width: 700px) {
+  html {
+    position: relative;
+  }
+
   #header {
     position: relative;
     top: 0;
@@ -62,11 +66,11 @@ body {
     display: block;
     background-color: #00552e;
     position: absolute;
-    top: 3.1em;
+    top: 58px;
     right: -100vw;
     width: 100vw;
     height: 9999px;
-    z-index: 100;
+    z-index: 0;
   }
  .slide_menu ul {
     display: block;
