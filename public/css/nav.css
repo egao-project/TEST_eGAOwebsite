@@ -57,8 +57,10 @@ body {
     height: 100%;
     z-index: 10;
   }
-
-
+ .slide_menu ul {
+    display: block;
+    margin: 1em 0 1em 0 ;
+ }
   .slide_menu li {
   	list-style-type: none;
   	margin: 0 0 0 -2em;
@@ -66,15 +68,21 @@ body {
     text-align: center;
     float: none;
   }
-
   .slide_menu li a {
+    font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
     font-size: 1.5em;
     color: #fff;
     text-align: center;
   }
-
   .slide_menu li a:hover {
     color: #f90;
+  }
+  .slide_menu li>ul>li a  {
+    line-height: 1em;
+    font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
   }
 }
 
