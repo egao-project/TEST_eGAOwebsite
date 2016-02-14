@@ -30,7 +30,7 @@ a {
 	margin: 0 auto;
 	padding: 3em 0;
 	width: 90%;
-	max-width: 1000px;	
+	max-width: 1000px;
 }
 .btn {
 	background-color: rgba(255, 255, 255, 0.9);
@@ -378,9 +378,6 @@ textarea {
 	/* COMPANY SECTION */
 	.company .column-box p {
 		font-size: 0.8em;
-	}
-	.company .column-image {
-		width: ;
 	}
 
 	/* RECURITE SECTION */
