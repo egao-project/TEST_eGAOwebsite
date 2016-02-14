@@ -13,18 +13,19 @@
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
        box-sizing: border-box;
-	color: #274;
-	font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+	color: #00552e;
+	font-family: sans-serif;
+	font-weight: normal;
 }
 
-body {
-    position: relative;
-    left: 0;
-    overflow-x: hidden;
+body {	
 }
 
 a {
 	text-decoration: none;
+}
+a:hover {
+	color: #f90;
 }
 .container {
 	margin: 0 auto;
@@ -67,7 +68,7 @@ h3 {
 	font-size: 2em;
 }
 .section-title {
-	font-weight: bolder;
+	/*font-weight: bolder;*/
 	letter-spacing: 0.5em;
 	margin: 0em auto 0 auto;
 	text-align: center;
@@ -106,8 +107,8 @@ input[type="email"], input {
 }
 input[type="text"]:focus, textarea:focus,
 input[type="email"]:focus:focus, input:focus {
-	box-shadow: 0 0 7px #274;
-	border: 1px solid #274;
+	box-shadow: 0 0 7px #00552e;
+	border: 1px solid #00552e;
 }
 label {
 	display: none;
@@ -118,8 +119,9 @@ textarea {
 
 /* HEADER SECTION */
 .header{
-	background: rgba(255, 255, 255, 1);
-	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	/*position: fixed;*/
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -127,10 +129,11 @@ textarea {
 	vertical-align: middle;
 	margin: 0;
 	padding: 0;
-	z-index: 1;
+	z-index: 10;
 }
 .header .container {
 	padding: 0;
+	/*border-bottom: 1px solid #fff;*/
 }
 .header .container:after {
 	content: "";
@@ -161,16 +164,21 @@ textarea {
 	margin: 0 auto;
 	width: 30%;
 }
+.header a {
+	color: #fff;
+}
 
 /* HERO SECTION */
 .hero {
 	border-style: none;
-	margin: 2.1em 0 0 0;
-	height: auto;
+	margin: 0 0 0 0;
+	height: 100vh;
 }
 .hero .container {
 	padding: 0;
 	position: relative;
+	height: auto;
+	z-index: 1;
 }
 .hero .container h1 {
 	color: #fff;
@@ -180,7 +188,7 @@ textarea {
 	line-height: 1.2em;
 	text-align: right;
 	margin: 0;
-	padding: 1.9em 0;
+	padding: 3em 0;
 	-webkit-animation-name: 'anime';
 	        animation-name: 'anime';
 	-webkit-animation-duration: 3s;
@@ -211,21 +219,55 @@ textarea {
 	}
 }
 
+/* FOOTER01 SECTION */
+.footer01 * {
+	color: #fff;
+	text-align: center;
+}
+.footer01 {
+	background: rgba(0, 0, 0, 0.5);
+	/*position: fixed;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+/*    background: #00552e;*/
+	margin: 0;
+	padding: 0;
+}
+.footer01 .container {
+	padding: 0;
+}
+.footer01 p#copyright {
+	/*border-top: 1px solid #fff;*/
+	font-size: 0.9em;
+	text-align: center;
+    color: #fff;
+	/*margin: 1em 0 0 0;*/
+	/*padding-top: 1em;*/
+}
+
+
 /* COMPANY SECTION */
 .company .multicolumnbox {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 .company .column {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 33.3333%;
-      -ms-flex: 0 0 33.3333%;
-          flex: 0 0 33.3333%;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 33.3333%;
+	-ms-flex: 0 0 33.3333%;
+	flex: 0 0 33.3333%;
+	max-width: 18em;
 }
 .company .column-box {
 	margin-bottom: 2em;
@@ -239,7 +281,7 @@ textarea {
 	padding: 10px;
 	border: 2px solid white;
 	border-radius: 50%;
-	background-color: #274;
+	background-color: #00552e;
 	text-align: left;
 }
 .company .column-box h3 {
@@ -281,7 +323,7 @@ textarea {
 
 /* RECURITE SECTION */
 .recruit .picup-recuruite {
-	border: 1px solid #274;
+	border: 1px solid #00552e;
     border-radius: 6px;
 	margin: 0 auto 2em;
 	padding: 1em;
@@ -294,66 +336,96 @@ textarea {
 
 
 /* FOOTER SECTION */
+.footer * {
+	color: #fff;
+	text-align: center;
+}
 .footer {
-    background: #274;
+    background: #00552e;
 	margin: 0;
 	padding: 0;
 }
 .footer .container {
-	padding: 1em;
+	padding: 2em 0 1em 0;
 }
 .footer .multicolumnbox {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-     margin: 0 0 1em 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 .footer .column {
-	border-right: 1px solid #fff;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 33.3333%;
-      -ms-flex: 0 0 33.3333%;
-          flex: 0 0 33.3333%;
-    padding: 0 1em;
+  -webkit-box-flex: 0 0 20%;
+  -webkit-flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+    padding: 0;
+    max-width: 10em;
 }
-.footer .column:last-child {
-	border-right: none;
-}
+
 .footer .column-box {
-	margin-bottom: 2em;
-	max-width: 600px;
+	width: auto;
+	max-width: auto;
 	text-align: center;
 }
-.footer .column-image {
-	display: block;
-	width: 20%;
-	margin: 0 auto;
-	padding: 10px;
-	border: 2px solid white;
-	border-radius: 50%;
-	background-color: #274;
-	text-align: left;
+.footer h2 {
+    color: #fff;
+    line-height: 1em;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0 0 0.5em 0;
+	text-align: center;
 }
-.footer .column-box h3 {
+.footer h3 {
+    color: #fff;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.footer img {
+	width: 70%;
+	max-width: 10em;
 	margin: 0;
 	padding: 0;
 }
-.footer h3,	.footer p {
-	line-height: 1.2em;
+.footer .column-box > p {
+	font-size: 0.5em;
     color: #fff;
-	margin: 1em;
-	padding: 0;
+	margin: 0;
+	padding: 0 0.5em 0 1em;
 	text-align: left;
+}
+.footer ul {
+	margin: 0;
+	padding: 0;
+}
+.footer li {
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 1em;
+	list-style-type: none;
+	padding: 0.3em 0;
+}
+.footer .col01 {
+/*	-webkit-align-self: center;
+	-ms-flex-item-align: center;*/
+	align-self: center;
 }
 .footer p#copyright {
+	border-top: 1px solid #fff;
+	font-size: 0.9em;
 	text-align: center;
     color: #fff;
-	margin: 0;
-	padding: 0;
+	margin: 1em 0 0 0;
+	padding-top: 1em;
 }
 
 /* @media */
@@ -462,8 +534,21 @@ textarea {
 	  -webkit-flex: 0 0 100%;
 	      -ms-flex: 0 0 100%;
 	          flex: 0 0 100%;
+	    padding-bottom: 2em;
+	    max-width: 80%;
+	    justify-content: 
 	}
-	.footer p {
+	.footer .col01 {
+		-webkit-box-ordinal-group: 3;
+		-webkit-order: 2;
+		-ms-flex-order: 2;
+		order: 2;
+		padding: 0 0 0 0;
+	}
+	.footer .column-box > p {
+		display: block;
 		font-size: 0.8em;
+		margin: 0 auto;
+		padding: 0 0 0 1em;
 	}
 }

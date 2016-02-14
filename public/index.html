@@ -12,7 +12,8 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/parallax.css">
+<!-- <link rel="stylesheet" href="css/nav.css"> -->
 
 <!--[if lt IE 9]>
 <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv-printshiv.min.js"></script>
@@ -25,37 +26,76 @@
 </head>
 <body>
 
-<div class="header section">
+<div class="header section" id="header">
 	<div class="container">
 		<h1><a href="#">株式会社eGAO</a></h1>
      	<nav class="menu" id="wide">
      		<ul>
-                <li><a href="company/index.html">会社紹介&#047;サービス</a></li>
+                <li><a href="company/index.html">会社紹介</a></li>
                 <li><a href="egao-project/index.html">笑顔実績</a></li>
                 <li><a href="recruit/index.html">採用情報</a></li>
                 <li><a href="recruit/index.html">お問い合わせ</a></li>
         	</ul>
      	</nav>
-        <nav class="slide_menu" id="slide_menu">
+<!--         <nav class="slide_menu" id="slide_menu">
             <ul>
-                <li><a href="company/index.html">▲</a></li>
-                <li><a href="company/index.html">会社紹介&#047; サービス</a></li>
-                <li><a href="egao-project/index.html">笑顔実績</a></li>
-                <li><a href="recruit/index.html">採用情報</a></li>
-                <li><a href="recruit/index.html">お問い合わせ</a></li>
+                <li><a href="#">▲</a></li>
+                <li>
+                    <a href="company/index.html">会社紹介</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="egao-project/index.html">笑顔実績</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit/index.html">採用情報</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit/index.html">お問い合わせ</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
             </ul>
-            <img src="img/egaoLOGO_waku.svg">
+            <img src="img/egaoLOGO_nuki.svg">
             <button id="toggle-btn"><span>Menu</span><i class="fa fa-bars"></i></button>
-        </nav> 
+        </nav>  -->
 	</div>
 </div>
 
-<div class="hero section parallax-window" data-parallax="scroll" data-image-src="img/eGAO_top.jpg">
+<div class="hero section parallax-window parallax-bg01" data-parallax="scroll" data-image-src="img/eGAO_top.jpg">
 	<div class="container">
 		<h1>もっともっと　<br>
 		イイ笑顔。</h1>
 	</div>
 </div>
+
+<div class="footer01 section">
+    <div class="container">
+        <p id="copyright">&copy; 2013 eGAO inc. All Rights Reserved.</p>
+    </div>
+</div>
+
 
 <div class="company section">
     <div class="container">
@@ -103,9 +143,9 @@
 	</div>
 </div>
 
-<div class="egaopj section parallax-window" data-parallax="scroll" data-image-src="img/pj_20151224.jpg">
+<div class="egaopj section parallax-window parallax-bg02" data-parallax="scroll" data-image-src="img/pj_20151224.jpg">
 	<div class="container">
-		<h2 class="section-title"><span>実績=笑顔数</span></h2>
+		<h2 class="section-title"><span>実績イコール笑顔数</span></h2>
 		<p class="section-subtitle">実績は売上よりも笑顔が獲得できたかどうか。<br>
 		相手は、社外・社内を問いません。<br>
 		笑顔が、次の笑顔、次の「変える」力を生み出します。</p>
@@ -139,32 +179,64 @@
 
 <div class="footer section">
     <div class="container">
+        <h2>SITE MAP</h2>
         <div class="multicolumnbox">
-            <div class="column">
+            <div class="column col01">
+                <div class="column-box">
+                    <img src="img/egaoLOGO_nuki.svg">
+                    <p>Company's name was named from "smile". This is the company where the people who try to produce a smile gather. The purpose of business is a smile!</p>
+                </div>
+            </div>
+            <div class="column col02">
+                <div class="column-box">
+                <h3><a href="#">COMPANY</a></h3>
+                    <ul>
+                        <li><a href="#">Message</a></li>
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column col03">
               <div class="column-box">
-                   <img src="img/egaoLOGO_waku.svg" class="column-image">
-                   <h3>eGAO inc.</h3>
-                   <p>eGAO is the company of most happy.</p>
+                <h3><a href="#">SERVICE</a></h3>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">EGAO Counts<br/>
+                    (Our Works)</a></li>
+                </ul>
               </div>
             </div>
-            <div class="column">
+            <div class="column col04">
               <div class="column-box">
-                   <h3>CONTENTS</h3>
+                <h3><a href="#">RECRUIT</a></h3>
+                <ul>
+                    <li><a href="#">Introduction of<br/>
+                    Culture/Jobs</a></li>
+                    <li><a href="#">Treatment</a></li>
+                    <li><a href="#">Requirements</a></li>
+                </ul>
               </div>
             </div>
-            <div class="column">
+            <div class="column col05">
               <div class="column-box">
-                   <h3>LINK</h3>
+                <h3><a href="#">CONTACT</a></h3>
+                <ul>
+                    <li><a href="#">ACCESS</a></li>
+                    <li><a href="#">MAP</a></li>
+                    <li><a href="#">Mailform</a></li>
+                </ul>
               </div>
-            </div>
+            </div>  
         </div>
-		<p id="copyright">&copy; 2013 eGAO inc. All Rights Reserved.</p>
-	</div>
+        <p id="copyright">&copy; 2013 eGAO inc. All Rights Reserved.</p>
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/prefixfree.js"></script>
-<script src="js/parallax.js"></script>
+<!-- <script src="js/parallax.js"></script> -->
 <script src="js/nav.js"></script>
 </body>
 </html>

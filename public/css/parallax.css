@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.parallax-window {
+	/*height: %;    */
+	background-size: cover;     
+	background-attachment: fixed;     
+	background-repeat: no-repeat;     
+	background-position: center center;
+}
+
+.parallax-bg01 {
+	background-image: url("../img/eGAO_top.jpg");
+	background-position: 30% 30%;
+}
+.parallax-bg02 {
+	background-image: url("../img/pj_20151224.jpg"); 
+}
+.parallax-bg03 {
+	background-image: url("../img/03.jpg"); 
+}
