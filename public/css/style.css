@@ -14,7 +14,8 @@
    -ms-box-sizing: border-box;
        box-sizing: border-box;
 	color: #00552e;
-	font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+	font-family: sans-serif;
+	font-weight: normal;
 }
 
 body {	
@@ -67,7 +68,7 @@ h3 {
 	font-size: 2em;
 }
 .section-title {
-	font-weight: bolder;
+	/*font-weight: bolder;*/
 	letter-spacing: 0.5em;
 	margin: 0em auto 0 auto;
 	text-align: center;
@@ -118,8 +119,9 @@ textarea {
 
 /* HEADER SECTION */
 .header{
-	background: rgba(255, 255, 255, 1);
-	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	/*position: fixed;*/
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -131,6 +133,7 @@ textarea {
 }
 .header .container {
 	padding: 0;
+	/*border-bottom: 1px solid #fff;*/
 }
 .header .container:after {
 	content: "";
@@ -161,18 +164,21 @@ textarea {
 	margin: 0 auto;
 	width: 30%;
 }
+.header a {
+	color: #fff;
+}
 
 /* HERO SECTION */
 .hero {
 	border-style: none;
-	margin: 2.1em 0 0 0;
-	height: auto;
+	margin: 0 0 0 0;
+	height: 100vh;
 }
 .hero .container {
 	padding: 0;
 	position: relative;
 	height: auto;
-	z-index: 0;
+	z-index: 1;
 }
 .hero .container h1 {
 	color: #fff;
@@ -182,7 +188,7 @@ textarea {
 	line-height: 1.2em;
 	text-align: right;
 	margin: 0;
-	padding: 1.9em 0;
+	padding: 3em 0;
 	-webkit-animation-name: 'anime';
 	        animation-name: 'anime';
 	-webkit-animation-duration: 3s;
@@ -212,6 +218,35 @@ textarea {
 		opacity:1;
 	}
 }
+
+/* FOOTER01 SECTION */
+.footer01 * {
+	color: #fff;
+	text-align: center;
+}
+.footer01 {
+	background: rgba(0, 0, 0, 0.5);
+	/*position: fixed;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+/*    background: #00552e;*/
+	margin: 0;
+	padding: 0;
+}
+.footer01 .container {
+	padding: 0;
+}
+.footer01 p#copyright {
+	/*border-top: 1px solid #fff;*/
+	font-size: 0.9em;
+	text-align: center;
+    color: #fff;
+	/*margin: 1em 0 0 0;*/
+	/*padding-top: 1em;*/
+}
+
 
 /* COMPANY SECTION */
 .company .multicolumnbox {
@@ -356,16 +391,16 @@ textarea {
 	text-align: center;
 }
 .footer img {
-	width: 60%;
+	width: 70%;
 	max-width: 10em;
 	margin: 0;
 	padding: 0;
 }
-.footer p {
+.footer .column-box > p {
 	font-size: 0.5em;
     color: #fff;
 	margin: 0;
-	padding: 0 1em;
+	padding: 0 0.5em 0 1em;
 	text-align: left;
 }
 .footer ul {
@@ -380,9 +415,9 @@ textarea {
 	padding: 0.3em 0;
 }
 .footer .col01 {
-	-webkit-align-self: center;
-	    -ms-flex-item-align: center;
-	        align-self: center;
+/*	-webkit-align-self: center;
+	-ms-flex-item-align: center;*/
+	align-self: center;
 }
 .footer p#copyright {
 	border-top: 1px solid #fff;
@@ -504,15 +539,19 @@ textarea {
 	          flex: 0 0 100%;
 	    padding-bottom: 2em;
 	    max-width: 80%;
+	    justify-content: 
 	}
 	.footer .col01 {
 		-webkit-box-ordinal-group: 3;
 		-webkit-order: 2;
-		    -ms-flex-order: 2;
-		        order: 2;
+		-ms-flex-order: 2;
+		order: 2;
 		padding: 0 0 0 0;
 	}
-	.footer p {
+	.footer .column-box > p {
+		display: block;
 		font-size: 0.8em;
+		margin: 0 auto;
+		padding: 0 0 0 1em;
 	}
 }
