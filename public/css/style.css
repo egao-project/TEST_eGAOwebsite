@@ -538,7 +538,7 @@ div.narrow {
 
 	/* HERO SECTION*/
 	.hero .container h1 {
-		/*padding: 4.9em 0;*/
+		margin: 0 -1em 0 0;
 	}
 
 	/* COMPANY SECTION */
