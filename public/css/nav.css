@@ -20,10 +20,16 @@ body {
 }
 
 @media (max-width: 700px) {
-  .header {
-    position: relative;
+  .body {
+      position: relative;
         overflow-x: hidden;
   }
+
+  .header .container {
+
+    overflow-x: hidden;
+  } 
+
  	#wide {
 		display: none;
 	}
