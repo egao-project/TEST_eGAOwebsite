@@ -5,7 +5,7 @@
 }
 
 html {
-  /*position: relative;*/
+  position: relative;
   overflow-x: hidden;
   z-index: 0;
 }
