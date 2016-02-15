@@ -36,7 +36,7 @@
 @media (max-width: 599px) {	
 	.parallax-window {
 	/*height: %;    */
-	background-size: 100vh auto;
+	background-size: 50%;
 }
 .parallax-bg01 {
 	background-image: url("../img/eGAO_top.jpg");
