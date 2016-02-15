@@ -5,7 +5,7 @@
 }
 
 html {
-  position: relative;
+/*  position: relative;*/
   overflow-x: hidden;
   z-index: 0;
 }
@@ -21,7 +21,7 @@ body {
 
 @media (max-width: 700px) {
   html {
-    position: relative;
+    position: absolute;
   }
 
   .header .container {
