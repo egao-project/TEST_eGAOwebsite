@@ -34,13 +34,12 @@
 }
 
 @media (max-width: 599px) {	
-/*	.parallax-window {
+	.parallax-window {
 			background-attachment: scroll;     
-	background-size: cober;
 }
-.parallax-bg01 {
+/*.parallax-bg01 {
 	background-image: url("../img/eGAO_topmini.jpg");
 	background-position: 50% 50%;
-}*/
-
+}
+*/
 }
