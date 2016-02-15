@@ -10,7 +10,7 @@
 
 /* GENERAL */
 * {
-	font-family: 'メイリオ';
+	/*font-family: 'メイリオ';*/
 	line-height: 1.4em;
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
@@ -408,7 +408,7 @@ textarea {
 	margin: 0;
 	padding: 0;
 }
-.footer li {
+.footer list-style: ; {
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
