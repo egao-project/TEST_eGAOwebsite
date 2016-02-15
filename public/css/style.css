@@ -478,6 +478,9 @@ textarea {
 }
 
 @media (max-width: 599px) {
+	* {
+		font-family: sans-serif;	
+	}
 
 	/* GENERAL */
 	h1 {
