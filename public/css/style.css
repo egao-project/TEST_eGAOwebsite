@@ -538,7 +538,7 @@ div.narrow {
 
 	/* HERO SECTION*/
 	.parallax-window {
-		background-size: auto;     
+		background-size: 50%;     
 		background-repeat: no-repeat;     
 		background-position: center center;
 	}
