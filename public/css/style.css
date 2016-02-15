@@ -10,7 +10,7 @@
 
 /* GENERAL */
 * {
-	/*font-family: 'メイリオ';*/
+	font-family: 'メイリオ';
 	line-height: 1.4em;
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
@@ -398,7 +398,7 @@ textarea {
 	padding: 0;
 }
 .footer .column-box > p {
-	font-size: 0.5em;
+	font-size: 0.6em;
     color: #fff;
 	margin: 0;
 	padding: 0 0.5em 0 1em;
@@ -408,12 +408,17 @@ textarea {
 	margin: 0;
 	padding: 0;
 }
-.footer list-style: ; {
+.footer li {
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
 	list-style-type: none;
 	padding: 0.3em 0;
+}
+.footer li>a {
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 1em;
 }
 .footer .col01 {
 /*	-webkit-align-self: center;
