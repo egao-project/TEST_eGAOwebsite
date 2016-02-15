@@ -36,7 +36,7 @@
 @media (max-width: 599px) {	
 	.parallax-window {
 		min-height: 50vh;
-		background-size: cover;     
+		background-size: contain;     
 		background-repeat: no-repeat;     
 	}
 
