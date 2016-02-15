@@ -413,6 +413,7 @@ textarea {
 	font-size: 0.9em;
 	line-height: 1em;
 	list-style-type: none;
+	list-style-image:none;
 	padding: 0.3em 0;
 }
 .footer li>a {
