@@ -22,6 +22,8 @@
 body {	
 }
 
+div.nav ul,div.nav ul,div.nav li{display:block;list-style:none;margin:0;padding:0;}
+
 a {
 	text-decoration: none;
 }
@@ -409,7 +411,6 @@ textarea {
 	padding: 0;
 }
 .footer li {
-	display: block;
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
@@ -421,6 +422,9 @@ textarea {
 	font-size: 0.9em;
 	line-height: 1em;
 	list-style-type: none;
+}
+.footer li>a:hover {
+	color: #f90;
 }
 .footer .col01 {
 /*	-webkit-align-self: center;
