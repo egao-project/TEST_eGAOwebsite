@@ -35,10 +35,10 @@
 
 @media (max-width: 599px) {	
 	.parallax-window {
-	position: static; 
+	position: static;
+	background-size: cover;
 }
 .parallax-bg01 {
-	background-size: cover;
 	background-image: url("../img/eGAO_top.jpg");
 	background-position: 30% 30%;
 }
