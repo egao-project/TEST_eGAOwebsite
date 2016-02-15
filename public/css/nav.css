@@ -5,7 +5,7 @@
 }
 
 html {
-  position: relative;
+  /*position: relative;*/
   overflow-x: hidden;
   z-index: 0;
 }
@@ -21,16 +21,16 @@ body {
 
 @media (max-width: 700px) {
   html {
-    position: relative;
+/*    position: relative;*/
   }
 
-  #header {
-    position: relative;
-    top: 0;
+  .header .container {
+    /*position: relative;*/
+/*    top: 0;
     left: 0;
     width: 100%;
     height: auto;
-    z-index: 10;
+    z-index: 10;*/
   } 
 
  	#wide {
@@ -67,10 +67,10 @@ body {
     background-color: #00552e;
     position: absolute;
     top: 0;
-    padding: 2em 0;
+    padding: 2em 0 2820px 0;
     right: -100vw;
     width: 100vw;
-    height: 9999px;
+    height: auto;
     z-index: 0;
   }
  .slide_menu ul {
@@ -85,7 +85,7 @@ body {
     float: none;
   }
   .slide_menu li a {
-    font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', sans-serif;
     font-size: 1.5em;
     color: #fff;
     text-align: center;
@@ -95,7 +95,7 @@ body {
   }
   .slide_menu li>ul>li a  {
     line-height: 1em;
-    font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
     font-size: 1em;
     color: #fff;
     text-align: center;
