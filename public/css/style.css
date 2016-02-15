@@ -119,6 +119,10 @@ label {
 textarea {
 	min-height: 10em;
 }
+div.narrow {
+	display: none;
+}
+
 
 /* HEADER SECTION */
 .header{
@@ -481,10 +485,16 @@ textarea {
 	* {
 		font-family: sans-serif;	
 	}
+	div.wide {
+		display: none;
+	}
+	div.narrow {
+		display: block;
+	}
 
 	/* GENERAL */
 	h1 {
-		font-size: 2.8em;
+		font-size: 3em;
 	}
 	h2 {
 		font-size: 1.5em;
