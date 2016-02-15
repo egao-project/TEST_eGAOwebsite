@@ -279,9 +279,9 @@ textarea {
 }
 .company .column-image {
 	display: block;
-	width: 6em;
+	width: 40%;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 3%;
 	border: 2px solid white;
 	border-radius: 50%;
 	background-color: #00552e;
@@ -415,14 +415,12 @@ textarea {
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
-	list-style-type: none;
 	padding: 0.3em 0;
 }
 .footer li>a {
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
-	list-style-type: none;
 }
 .footer li>a:hover {
 	color: #f90;
