@@ -21,7 +21,7 @@ body {
 
 @media (max-width: 700px) {
   html {
-/*    position: relative;*/
+    position: relative;
   }
 
   .header .container {
