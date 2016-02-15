@@ -36,7 +36,7 @@
 @media (max-width: 599px) {	
 	.parallax-window {
 	position: static;
-	background-size: 100vh auto;
+	background-size: auto;
 }
 .parallax-bg01 {
 	background-image: url("../img/eGAO_topmini.jpg");
