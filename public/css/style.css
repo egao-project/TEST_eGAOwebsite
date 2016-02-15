@@ -537,6 +537,11 @@ div.narrow {
 	}
 
 	/* HERO SECTION*/
+	.parallax-window {
+		background-size: auto;     
+		background-repeat: no-repeat;     
+		background-position: center center;
+	}
 	.hero .container h1 {
 		margin: 0 -1em 0 0;
 	}
