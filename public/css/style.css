@@ -11,6 +11,7 @@
 /* GENERAL */
 * {
 	font-family: 'メイリオ';
+	line-height: 1.2em;
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
        box-sizing: border-box;
