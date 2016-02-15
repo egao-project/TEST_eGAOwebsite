@@ -36,7 +36,7 @@
 @media (max-width: 599px) {	
 	.parallax-window {
 			background-attachment: scroll;
-	background-size: 100% auto;
+
 }
 /*.parallax-bg01 {
 	background-image: url("../img/eGAO_topmini.jpg");

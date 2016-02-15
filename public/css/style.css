@@ -537,7 +537,9 @@ div.narrow {
 	}
 
 	/* HERO SECTION*/
-
+	.hero {
+		height: 500px;
+	}
 	.hero .container h1 {
 		margin: 0 -1em 0 0;
 	}
