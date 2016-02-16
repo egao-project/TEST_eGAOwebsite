@@ -39,8 +39,9 @@ a#scrollbtn span::after {
 	box-sizing: border-box;
 }
 
-@media (max-width: 599px) {
-a#scrollbtn p {
-	display: none;
-}
+/* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
+@media screen and (max-device-width: 1024px) {
+	a#scrollbtn p {
+		display: none;
+	}
 }
