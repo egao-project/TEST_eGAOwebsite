@@ -10,7 +10,7 @@
 
 /* GENERAL */
 * {
-	font-family: 'メイリオ';
+	font-family: 'sans-serif';
 	line-height: 1.4em;
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
@@ -65,7 +65,7 @@ h2 {
 	font-size: 2.5em;
 }
 h2, h2 span {
-	font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'メイリオ';
+	font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'sans-serif';
 }
 h3 {
 	font-size: 2em;
@@ -584,9 +584,13 @@ div.narrow {
 	}
 }
 
-/* Safari専用*/
-@media screen and (-webkit-min-device-pixel-ratio:0)　{
-	* {
-		font-family: sans-serif;
+/* IE10以降専用 */
+	@media all and (-ms-high-contrast:none){
+	  *	{
+	  		font-family: 'メイリオ';
+	  }
+	  h2, h3, h4, h5, a, p, span, ul, ol, li {
+	  		font-family: 'メイリオ';
+	  }
 	}
 }
