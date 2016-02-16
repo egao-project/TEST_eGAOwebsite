@@ -586,7 +586,7 @@ div.narrow {
 
 /* Safari専用*/
 @media screen and (-webkit-min-device-pixel-ratio:0)　{
-	a, p, ul, ol, li {
+	* {
 		font-family: sans-serif;
 	}
 }
