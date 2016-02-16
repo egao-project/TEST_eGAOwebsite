@@ -40,8 +40,7 @@ a#scrollbtn span::after {
 }
 
 @media (max-width: 599px) {
-	a#scrollbtn span {
-		width: 20px;
-		height: 20px;
-	}
+a#scrollbtn p {
+	display: none;
+}
 }
