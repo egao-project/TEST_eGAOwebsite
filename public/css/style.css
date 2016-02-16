@@ -481,9 +481,6 @@ div.narrow {
 }
 
 @media (max-width: 599px) {
-	* {
-		font-family: sans-serif;	
-	}
 	div.wide {
 		display: none;
 	}
@@ -584,5 +581,15 @@ div.narrow {
 		font-size: 0.8em;
 		margin: 0 auto;
 		padding: 0 0 0 1em;
+	}
+}
+
+/* iOS対策*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	a, p, ul, li {
+		font-family: sans-serif;	
+	}
+	.parallax-window {
+		background-attachment: scroll;
 	}
 }
