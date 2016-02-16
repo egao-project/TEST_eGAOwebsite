@@ -38,3 +38,10 @@ a#scrollbtn span::after {
 	transform: rotate(-45deg);
 	box-sizing: border-box;
 }
+
+@media (max-width: 599px) {
+	a#scrollbtn span {
+		width: 30px;
+		height: 30px;
+	}
+}
