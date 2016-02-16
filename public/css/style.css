@@ -224,35 +224,6 @@ div.narrow {
 	}
 }
 
-/* FOOTER01 SECTION */
-.footer01 * {
-	color: #fff;
-	text-align: center;
-}
-.footer01 {
-	background: rgba(0, 0, 0, 0.5);
-	/*position: fixed;*/
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-/*    background: #00552e;*/
-	margin: 0;
-	padding: 0;
-	z-index: 100;
-}
-.footer01 .container {
-	padding: 0;
-}
-.footer01 p#copyright {
-	/*border-top: 1px solid #fff;*/
-	font-size: 0.9em;
-	text-align: center;
-    color: #fff;
-	/*margin: 1em 0 0 0;*/
-	/*padding-top: 1em;*/
-}
-
 
 /* COMPANY SECTION */
 .company .multicolumnbox {

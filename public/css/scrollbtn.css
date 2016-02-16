@@ -1,0 +1,40 @@
+a#scrollbtn {
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	color: #fff;
+}
+a#scrollbtn * {
+	color: #fff;
+}
+a#scrollbtn *:hover {
+	color: #f90;
+}
+a#scrollbtn p {
+	padding-top: 350px;
+}
+a#scrollbtn span {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	width: 46px;
+	height: 46px;
+	margin-left: -23px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+a#scrollbtn span::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: '';
+	width: 16px;
+	height: 16px;
+	margin: -12px 0 0 -8px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
