@@ -41,6 +41,9 @@ a#scrollbtn span::after {
 
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
 @media screen and (max-device-width: 1024px) {
+	a#scrollbtn {
+		bottom: 3%;
+	}
 	a#scrollbtn p {
 		display: none;
 	}
