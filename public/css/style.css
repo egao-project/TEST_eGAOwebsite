@@ -126,7 +126,7 @@ div.narrow {
 
 /* HEADER SECTION */
 .header{
-	background: rgba(0, 0, 0, 0.5);
+/*	background: rgba(0, 0, 0, 0.5);*/
 	/*position: fixed;*/
 	position: absolute;
 	top: 0;
@@ -177,53 +177,21 @@ div.narrow {
 
 /* HERO SECTION */
 .hero {
-
 	border-style: none;
 	margin: 0 0 0 0;
 	height: 100vh;
 }
-.hero:after {
-		background: rgba(0, 0, 0, 0.3);
-}
-/*.hero .container {
-
-}*/
-.hero h1 {
-	color: #fff;
-	display: block;
-	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
-	letter-spacing: 0.2em;
-	line-height: 1.2em;
+.hero .translucent {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	bottom: 0;
+	right: 0;
 	margin: 0;
 	padding: 0;
-text-shadow:
-0px 0px 25px rgba(97, 97, 97, 0.7),
-0px 0px 20px rgba(97, 97, 97, 0.7);
-	text-align: center;
-	-webkit-animation-name: 'anime';
-	        animation-name: 'anime';
-	-webkit-animation-duration: 3s;
-	        animation-duration: 3s;
-	-webkit-animation-timing-function: ease;
-	        animation-timing-function: ease;
-	-webkit-animation-delay: 0;
-	        animation-delay: 0;
-	-webkit-animation-iteration-count: 1;
-	        animation-iteration-count: 1;
-	-webkit-animation-direction:alternate;
-	        animation-direction:alternate;
+	background: rgba(0, 0, 0, 0.3);
 }
-.hero h2 {
-	color: #fff;
-	border-top: 1px solid #fff;
-	display: block;
-	font-family: 'Hiragino Kaku Gothic ProN', 'メイリオ';
-	line-height: 1em;
-	text-align: center;
-text-shadow:
-0px 0px 25px rgba(97, 97, 97, 0.7),
-0px 0px 20px rgba(97, 97, 97, 0.7);
-	padding-top: 1em;
+.hero .container {
 	-webkit-animation-name: 'anime';
 	        animation-name: 'anime';
 	-webkit-animation-duration: 3s;
@@ -252,6 +220,37 @@ text-shadow:
 	100% {
 		opacity:1;
 	}
+}
+
+.hero h1 {
+	color: #fff;
+	display: block;
+	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	letter-spacing: 0.2em;
+	line-height: 1.2em;
+	text-align: right;
+	margin: 0 -0.2em 0 0;
+	padding: 0;
+	text-shadow:
+	0px 0px 25px rgba(97, 97, 97, 0.7),
+	0px 0px 20px rgba(97, 97, 97, 0.7);
+}
+.hero h2 {
+	color: #fff;
+	border-top: 1px solid #fff;
+	display: block;
+	font-family: 'Hiragino Kaku Gothic ProN', 'メイリオ';
+	text-align: right;
+	padding: 0 0.5em 0 0;
+	text-shadow:
+	-1px -1px 0px rgba(97, 97, 97, 0.2),
+	1px -1px 0px rgba(97, 97, 97, 0.2),
+	1px 1px 0px rgba(97, 97, 97, 0.2),
+	-1px 1px 0px rgba(97, 97, 97, 0.2),
+	0px 0px 30px rgba(97, 97, 97, 0.7),
+	0px 0px 20px rgba(97, 97, 97, 1),
+	0px 0px 15px rgba(97, 97, 97, 1);
+	padding-top: 1em;
 }
 
 /* COMPANY SECTION */
@@ -464,6 +463,9 @@ text-shadow:
 	}
 
 	/* HERO SECTION*/
+	.hero h2 {
+		font-size: 1.5em;
+	}
 
 	/* COMPANY SECTION */
 	.company .column-box p {
@@ -514,8 +516,6 @@ text-shadow:
 		float: left;
 		font-weight: normal;
 		font-size: 1.5em;
-		margin: 0;
-		/*padding: 0.5em 0 0.1em 0;*/
 	}
 	.header .menu {
 		clear: both;
@@ -529,12 +529,7 @@ text-shadow:
 	}
 
 	/* HERO SECTION*/
-/*	.hero {
-		height: 500px;
-	}
-	.hero .container h1 {
-		margin: 0 -1em 0 0;
-	}*/
+
 
 	/* COMPANY SECTION */
 	.company .column {

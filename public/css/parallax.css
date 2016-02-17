@@ -13,7 +13,7 @@
 	background-image: url("../img/eGAO_top.jpg");
 	background-position: 30% 30%;
 }
-.parallax-bg01 > .container {
+.parallax-bg01 .container {
 	position: absolute;
 	left: 50%;
 	top: 50%;
