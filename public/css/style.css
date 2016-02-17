@@ -125,7 +125,8 @@ div.narrow {
 
 
 /* HEADER SECTION */
-.header{
+header {
+	display: block;
 /*	background: rgba(0, 0, 0, 0.5);*/
 	/*position: fixed;*/
 	position: absolute;
@@ -138,40 +139,40 @@ div.narrow {
 	padding: 0;
 	z-index: 10;
 }
-.header .container {
+header .container {
 	padding: 0;
 	/*border-bottom: 1px solid #fff;*/
 }
-.header .container:after {
+header .container:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-.header h1 {
+header h1 {
 	float: left;
 	font-weight: normal;
 	font-size: 1.5em;
 	margin: 0;
 	padding: 0.5em 0 0.1em 0;
 }
-.header .menu {
+header .menu {
 	float: right;
 	margin: 0;
 	padding: 0.1em;
 }
-.header .menu li {
+header .menu li {
 	display: inline-block;
 	padding-left: 1em;
 }
-.header .menu a:hover {
+header .menu a:hover {
 	color: #f90;
 }
-.header img {
+header img {
 	display: block;
 	margin: 0 auto;
 	width: 30%;
 }
-.header a {
+header a {
 	color: #fff;
 }
 
@@ -221,7 +222,6 @@ div.narrow {
 		opacity:1;
 	}
 }
-
 .hero h1 {
 	color: #fff;
 	display: block;
@@ -240,8 +240,9 @@ div.narrow {
 	border-top: 1px solid #fff;
 	display: block;
 	font-family: 'Hiragino Kaku Gothic ProN', 'メイリオ';
+	font-size: 2.2em;
 	text-align: right;
-	padding: 0 0.5em 0 0;
+	padding: 0 2em 0 0;
 	text-shadow:
 	-1px -1px 0px rgba(97, 97, 97, 0.2),
 	1px -1px 0px rgba(97, 97, 97, 0.2),
@@ -341,19 +342,19 @@ div.narrow {
 
 
 /* FOOTER SECTION */
-.footer * {
+footer * {
 	color: #fff;
 	text-align: center;
 }
-.footer {
+footer {
     background: #00552e;
 	margin: 0;
 	padding: 0;
 }
-.footer .container {
+footer .container {
 	padding: 2em 0 1em 0;
 }
-.footer .multicolumnbox {
+footer .multicolumnbox {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -366,7 +367,7 @@ div.narrow {
 	-ms-flex-pack: center;
 	justify-content: center;
 }
-.footer .column {
+footer .column {
   -webkit-box-flex: 0 0 20%;
   -webkit-flex: 0 0 20%;
       -ms-flex: 0 0 20%;
@@ -375,12 +376,12 @@ div.narrow {
     max-width: 10em;
 }
 
-.footer .column-box {
+footer .column-box {
 	width: auto;
 	max-width: auto;
 	text-align: center;
 }
-.footer h2 {
+footer h2 {
     color: #fff;
     line-height: 1em;
 	font-size: 1.5em;
@@ -388,51 +389,51 @@ div.narrow {
 	padding: 0 0 0.5em 0;
 	text-align: center;
 }
-.footer h3 {
+footer h3 {
     color: #fff;
 	font-size: 1.2em;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
-.footer img {
+footer img {
 	width: 70%;
 	max-width: 10em;
 	margin: 0;
 	padding: 0;
 }
-.footer .column-box > p {
+footer .column-box > p {
 	font-size: 0.6em;
     color: #fff;
 	margin: 0;
 	padding: 0 0.5em 0 1em;
 	text-align: left;
 }
-.footer ul {
+footer ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
-.footer li {
+footer li {
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
 	padding: 0.3em 0;
 }
-.footer li>a {
+footer li>a {
 	color: #fff;
 	font-size: 0.9em;
 	line-height: 1em;
 }
-.footer li>a:hover {
+footer li>a:hover {
 	color: #f90;
 }
-.footer .col01 {
+footer .col01 {
 /*	-webkit-align-self: center;
 	-ms-flex-item-align: center;*/
 	/*align-self: center;*/
 }
-.footer p#copyright {
+footer p#copyright {
 	border-top: 1px solid #fff;
 	font-size: 0.9em;
 	text-align: center;
@@ -444,8 +445,11 @@ div.narrow {
 /* @media */
 @media (min-width: 1280px) {
 	/* HERO SECTION*/
-	.hero .container h1 {
+	.hero h1 {
 		font-size: 6em;
+	}
+	.hero h2 {
+		font-size: 2.6em;
 	}
 }
 
@@ -463,9 +467,13 @@ div.narrow {
 	}
 
 	/* HERO SECTION*/
+	.hero h1 {
+		font-size: 3.5em;
+	}
 	.hero h2 {
 		font-size: 1.5em;
 	}
+
 
 	/* COMPANY SECTION */
 	.company .column-box p {
@@ -529,7 +537,12 @@ div.narrow {
 	}
 
 	/* HERO SECTION*/
-
+	.hero h1 {
+		font-size: 2em;
+	}
+	.hero h2 {
+		font-size: 1.6em;
+	}
 
 	/* COMPANY SECTION */
 	.company .column {
@@ -551,7 +564,7 @@ div.narrow {
 	}
 
 	/* FOOTER */
-	.footer	.column {
+	footer .column {
 	  -webkit-box-flex: 0;
 	  -webkit-flex: 0 0 100%;
 	      -ms-flex: 0 0 100%;
@@ -560,14 +573,14 @@ div.narrow {
 	    max-width: 80%;
 	    justify-content: 
 	}
-	.footer .col01 {
+	footer .col01 {
 		-webkit-box-ordinal-group: 3;
 		-webkit-order: 2;
 		-ms-flex-order: 2;
 		order: 2;
 		padding: 0 0 0 0;
 	}
-	.footer .column-box > p {
+	footer .column-box > p {
 		display: block;
 		font-size: 0.8em;
 		margin: 0 auto;
