@@ -3,17 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>会社概要　株式会社イーガオ -もっともっとイイ笑顔-</title>
-<meta name="viewport" content="width=device-width">
-
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <META NAME="ROBOTS" CONTENT="NOARCHIVE">
 <META name="robots" content="noindex,nofollow">
+<meta name=”viewport” content=”width=device-width, initial-scale=1, minimum-scale=1, minimal-ui”>
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,900,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../css/normalize.css">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/company.css">
+<link rel="stylesheet" href="../css/parallax.css">
 <link rel="stylesheet" href="../css/nav.css">
+<link rel="stylesheet" href="../css/scrollbtn.css">
 
 <!--[if lt IE 9]>
 <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv-printshiv.min.js"></script>
@@ -26,39 +28,74 @@
 </head>
 <body>
 
-<div class="header section">
+<header class="header" id="header">
     <div class="container">
-        <h1><a href="../index.html">株式会社eGAO</a></h1>
-        <nav id="wide">
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">会社概要</a></li>
-                    <li><a href="egao-project/index.html">笑顔プロジェクト</a></li>
-                    <li><a href="recruit/index.html">採用情報</a></li>
-                </ul>
-            </div>
+        <h1><a href="#">株式会社eGAO</a></h1>
+        <nav class="menu" id="wide">
+            <ul>
+                <li><a href="company/index.html">会社紹介</a></li>
+                <li><a href="egao-project/index.html">サービス/実績</a></li>
+                <li><a href="recruit/index.html">採用情報</a></li>
+                <li><a href="recruit/index.html">お問い合わせ</a></li>
+            </ul>
         </nav>
-        <nav id="narrow">
-            <buttn type="button" id="toggle-btn"><span>MENU</span><i class="fa fa-bars"></i></button>
-            <div class="toggle-menu" id="toggle-menu">
-                <ul>
-                    <li><a href="../index.html">SITE TOP</a></li>
-                    <li><a href="../index.html">会社概要</a></li>
-                    <li><a href="egao-project/index.html">笑顔プロジェクト</a></li>
-                    <li><a href="recruit/index.html">採用情報</a></li>
-                </ul>
-            </div>
-        </nav>
+        <nav class="slide_menu" id="slide_menu">
+            <ul>
+                <li><a href="#">▲</a></li>
+                <li>
+                    <a href="company/index.html">会社紹介</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="egao-project/index.html">サービス/実績</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit/index.html">採用情報</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="recruit/index.html">お問い合わせ</a>
+                    <ul>
+                        <li><a href="company/index.html">代表あいさつ</a>j</li>
+                        <li><a href="company/index.html">企業理念</a></li>
+                        <li><a href="company/index.html">社風/制度</a></li>
+                        <li><a href="company/index.html">会社概要</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="img/egaoLOGO_nuki.svg">
+            <button id="toggle-btn"><span>Menu</span><i class="fa fa-bars"></i></button>
+        </nav> 
     </div>
-</div>
+</header>
 
-<div class="hero section parallax-window" data-parallax="scroll" data-position-y="top" data-image-src="../img/eGAO_company.jpg">
+<section class="hero parallax-window parallax-bg_company01">
+<div class="translucent">
 	<div class="container">
-		<h1>会社概要</h1>
+		<h1>会社紹介</h1>
+        <h2>Company's name <br>was named <br>from "smile".</h2>
 	</div>
+    <a href="#company" id="scrollbtn"><span></span><p>Scroll</p></a>
 </div>
+</section>
 
-<div class="message section">
+<section class="message">
     <div class="container">
         <h2 class="section-title"><span>代表挨拶</span></h2>
     	<div class="multicolumnbox">
@@ -79,9 +116,9 @@
         	</div>
     	</div>
 	</div>
-</div>
+</section>
 
-<div class="phirosophy section">
+<section class="phirosophy">
 	<div class="container">
         <h2 class="section-title"><span>企業理念</span></h2>
         <h3>社員と家族に笑顔、人類と社会に笑顔を。</h3>
@@ -99,9 +136,53 @@
         面白さ、楽しさというのは、人から貰うこともできますが、自分で生み出すこともできます。<br>
         eGAOはその「面白さ」「楽しさ」を生み出し「笑顔」を作り出す会社であり続けます。</p>
 	</div>
-</div>
+</section>
 
-<div class="summary section">
+<section class="service parallax-window parallax-bg_company02">
+    <div class="container">
+        <h2 class="section-title"><span>サービス</span></h2>
+        <h3>売り物は、経験と信頼。ITの本当のチカラをとりもどす。</h3>
+        <p>ITコンサルティング、Webデザイン、業務システム開発・保守、サーバ/NW/ファシリティの設計〜敷設、ITサービスマネージメント（業務運用設計/導入/管理）etc.<br>
+        いずれにおいても、大手SIer・ユーザ企業様を10年以上支えてきた熟練エンジニア達を中心に、社員全員がそれぞれ得意分野をもつ専門家の集団です。<br>
+        それが業務時間内外でサポートしあうため、各員の能力をすべて兼ね備えたひとつの機能「イーガオ」として、広範囲かつ複雑なオーダーに対応。小規模企業ならではのフットワークの軽さに、実績をともなった安心の技術で、貴社の成功＝笑顔の創出をお約束します！</p>
+        <h3>「顧客と社員がともに笑顔になる客先常駐」を実現。</h3>
+        <p>提供の仕方は、重要情報を扱うことが多いため、お客様先常駐が多いです。契約形態は、派遣/請負/受託（SES）のいすれも対応。<br>
+        お客様先常駐の場合、社員の管理が行き届かず生産性を維持できないサービス提供業者がまれにありますが、eGAOではお客様先をおしつけでなく社員自身が選んで参画をし、どうしても現場が合わない時には他メンバとの交代が出来る体制をとっているため、結果としてやる気を持続したままで最後まで案件に貢献、安定した生産性で高い成果を実現しています。</p>
+        <h3>社員が自分で生み出す自社事業、独自サービス。</h3>
+        <p>起案自由。社内リーソスが足りれば即事業化。入社一年未満社員の起案が自社サービスとして事業化した実績あり。</p>
+        <p>◆自社事業01）eGAOスタジオ：現役エンジニアに質問自由な独習会。費用は参加したときだけの敷居の低さが魅力。</p>
+        <p>◆自社事業02）定形少額Webサイト構築/運用サービス：個人事業や小店舗様向け、業界最安級・即日開設・キャンセル無料のお得サービス。</p>
+        <p>◆自社事業03）中小企業様向けのシステム部アウトソーシング：社内システム開発からインフラ保守まで一括引受。</p>
+        <p>現在も数本のプロジェクトが事業化を目指し進行中。<br>
+ITだけじゃない！ 全社員自慢の人柄とアイデアで、世の困ったを解決し、便利は更に追求を。</p>
+        <h3>実績 イコール 笑顔数</h3>
+        <p>実績は売上よりも笑顔が獲得できたかどうか。相手は、社外・社内を問いません。笑顔が、次の笑顔、次の「変える」力を生み出します。</p>
+        <a class="btn" href="#">笑顔実績</a>
+    </div>
+</section>
+
+<section class="culture parallax-window parallax-bg_company02">
+<div class="translucent">
+    <div class="container">
+        <h2 class="section-title"><span>社風・文化</span></h2>
+        <h3>立ち位置も将来も自分で決める。</h3>
+        <p>非ヒエラルキーな組織。あるのは、役割と責任と、取締役というの名の「雑用係」のみ。</p>
+        <p>経営状況は常時公開。売上も人件費も個別に開示。明確な現状は次の目標への足場となります。<br>
+        育ち育てる。家族の笑顔、仲間の笑顔、顧客の笑顔、まだ見ぬ誰かの笑顔、そしてなにより自分の笑顔を得るために。</p>
+        <h3>まずは社員の笑顔から。笑顔で笑顔を生み出すために。</h3>
+        <p></p>
+        <h3>環境は自由に作り変えられる。</h3>
+        <p>仕事はつまらない、言われることをやればいい、やりたいことができない……。<br>
+        社会に出て仕事をして、このように感じることはありませんか？<br>
+        正直、誰しもが感じることなのかもしれません。<br>
+        ですが、仕事こそ「面白い」「楽しい」と思えないといけません。<br>
+        面白さ、楽しさというのは、人から貰うこともできますが、自分で生み出すこともできます。<br>
+        eGAOはその「面白さ」「楽しさ」を生み出し「笑顔」を作り出す会社であり続けます。</p>
+    </div>
+</div>
+</section>
+
+<section class="summary">
     <div class="container">
         <h2 class="section-title"><span>会社概要</span></h2>
         <table summary="会社案内表">
@@ -145,9 +226,9 @@
             </tr>
         </table>
     </div>
-</div>
+</section>
 
-<div class="access section">
+<section class="access">
     <div class="container">
         <h2 class="section-title"><span>アクセス</span></h2>
         <div class="multicolumnbox">
@@ -177,9 +258,9 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.556130613326!2d139.71057921539412!3d35.68792993019275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ce9f33d1f97%3A0x477be0edec6b5457!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yR5LiB55uu77yS4oiS77yZIO-8qu-8puaWsOWuv-W-oeiLkeODk-ODqw!5e0!3m2!1sja!2sjp!4v1454398675952" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
-</div>
+</section>
 
-<div class="contact section parallax-window" data-parallax="scroll" data-position-y="top" data-image-src="../img/eGAO_company.jpg">
+<section class="contact parallax-window parallax-bg_company04">
 	<div class="container">
 		<h2 class="section-title"><span>お問い合わせ</span></h2>
         <form action="/my-handling-form-page" method="post">
@@ -198,17 +279,77 @@
             <button type="submit" class="btn">送信<button>
         </form>
 	</div>
-</div>
+</section>
 
-<div class="footer">
-	<div class="container">
-		<p>&copy; 2013 eGAO inc. All Rights Reserved.</p>
-	</div>
-</div>
+<footer class="footer">
+    <div class="container">
+        <h2>SITE MAP</h2>
+        <div class="multicolumnbox">
+            <div class="column col01">
+                <div class="column-box">
+                    <img src="../img/egaoLOGO_nuki.svg">
+                    <p>Company's name was named from "smile". This is the company where the people who try to produce a smile gather. The purpose of business is a smile!</p>
+                </div>
+            </div>
+            <div class="column col02">
+                <div class="column-box">
+                <h3><a href="#">COMPANY</a></h3>
+                    <ul>
+                        <li><a href="#">Message</a></li>
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column col03">
+              <div class="column-box">
+                <h3><a href="#">SERVICE</a></h3>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">EGAO Counts<br/>
+                    (Our Works)</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="column col04">
+              <div class="column-box">
+                <h3><a href="#">RECRUIT</a></h3>
+                <ul>
+                    <li><a href="#">Introduction of<br/>
+                    Culture/Jobs</a></li>
+                    <li><a href="#">Treatment</a></li>
+                    <li><a href="#">Requirements</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="column col05">
+              <div class="column-box">
+                <h3><a href="#">CONTACT</a></h3>
+                <ul>
+                    <li><a href="#">ACCESS</a></li>
+                    <li><a href="#">MAP</a></li>
+                    <li><a href="#">Mailform</a></li>
+                </ul>
+              </div>
+            </div>  
+        </div>
+        <p id="copyright">&copy; 2013 eGAO inc. All Rights Reserved.</p>
+    </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="../js/prefixfree.js"></script>
-<script src="../js/parallax.js"></script>
-<script src="../js/nav.js"></script>
+<script src="js/nav.js"></script>
+<script type="text/javascript">
+//ページ内リンク、#非表示。スムーズスクロール
+  $('a[href^=#]').click(function(){
+    var speed = 800;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+</script>
 </body>
 </html>

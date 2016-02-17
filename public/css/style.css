@@ -10,14 +10,13 @@
 
 /* GENERAL */
 * {
-	font-family: 'Hiragino Kaku Gothic ProN W3', 'メイリオ', sans-serif;
-	font-weight: lighter; 
-	line-height: 1.4em;
+	color: #00552e;
+	line-height: 1.6em;
+	font-family: Lato, "メイリオ", "Meiryo", sans-serif;
+	font-weight: normal:;
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
        box-sizing: border-box;
-	color: #00552e;
-	/*font-weight: normal;*/
 }
 
 body {
@@ -60,16 +59,19 @@ a:hover {
 }
 h1 {
 	font-size: 5em;
+	font-weight: normal;
 
 }
 h2 {
 	font-size: 2.5em;
+	font-weight: normal;
 }
 h2, h2 span {
-	font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 }
 h3 {
 	font-size: 2em;
+	font-weight: normal;
 }
 .section-title {
 	letter-spacing: 0.5em;
@@ -239,10 +241,13 @@ header a {
 	color: #fff;
 	border-top: 1px solid #fff;
 	display: block;
-	font-family: 'Hiragino Kaku Gothic ProN', 'メイリオ';
+	font-family: Lato, 'Hiragino Kaku Gothic ProN', 'メイリオ';
+	font-weight: 300;
 	font-size: 2.2em;
+	letter-spacing: 0.1em;
+	line-height: 1.2;
 	text-align: right;
-	padding: 0 2em 0 0;
+	padding: 0 3em 0 0;
 	text-shadow:
 	-1px -1px 0px rgba(97, 97, 97, 0.2),
 	1px -1px 0px rgba(97, 97, 97, 0.2),
@@ -449,7 +454,8 @@ footer p#copyright {
 		font-size: 6em;
 	}
 	.hero h2 {
-		font-size: 2.6em;
+		font-size: 2.5em;
+		font-weight: 300;
 	}
 }
 
@@ -542,6 +548,7 @@ footer p#copyright {
 	}
 	.hero h2 {
 		font-size: 1.6em;
+		padding: 0 1.5em 0 0;
 	}
 
 	/* COMPANY SECTION */
