@@ -11,6 +11,7 @@
 <meta name=”viewport” content=”width=device-width, initial-scale=1, minimum-scale=1, minimal-ui”>
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,900,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/parallax.css">
@@ -28,13 +29,13 @@
 </head>
 <body>
 
-<div class="header section" id="header">
+<header class="header" id="header">
 	<div class="container">
 		<h1><a href="#">株式会社eGAO</a></h1>
      	<nav class="menu" id="wide">
      		<ul>
                 <li><a href="company/index.html">会社紹介</a></li>
-                <li><a href="egao-project/index.html">笑顔実績</a></li>
+                <li><a href="egao-project/index.html">サービス/実績</a></li>
                 <li><a href="recruit/index.html">採用情報</a></li>
                 <li><a href="recruit/index.html">お問い合わせ</a></li>
         	</ul>
@@ -52,7 +53,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="egao-project/index.html">笑顔実績</a>
+                    <a href="egao-project/index.html">サービス/実績</a>
                     <ul>
                         <li><a href="company/index.html">代表あいさつ</a>j</li>
                         <li><a href="company/index.html">企業理念</a></li>
@@ -83,23 +84,24 @@
             <button id="toggle-btn"><span>Menu</span><i class="fa fa-bars"></i></button>
         </nav> 
 	</div>
-</div>
+</header>
 
-<div class="hero section parallax-window parallax-bg01">
+<section class="hero parallax-window parallax-bg_top01">
+<div class="translucent">
 	<div class="container wide">
-		<h1>もっともっと　<br>
-		イイ笑顔。</h1>
+		<h1>もっともっと　<br>イイ笑顔。</h1>
+        <h2>The purpose of business <br>is SMILE!</h2>
 	</div>
     <div class="container narrow">
-        <h1>もっと　　<br>
-        もっと　　<br>
-        イイ笑顔。</h1>
+        <h1>もっともっと　<br>イイ笑顔。</h1>
+        <h2>The purpose <br>of business <br>is SMILE!</h2>
     </div>
     <a href="#company" id="scrollbtn"><span></span><p>Scroll</p></a>
 </div>
+</section>
 
 
-<div class="company section" id="company">
+<section class="company" id="company">
     <div class="container">
         <h2 class="section-title"><span>事業の目的は笑顔</span></h2>
         <p class="section-subtitle">自分自身の笑顔、周りの人々の笑顔、<br>
@@ -143,9 +145,9 @@
     	</div>
 		<a class="btn" href="#">会社概要</a>
 	</div>
-</div>
+</section>
 
-<div class="egaopj section parallax-window parallax-bg02" data-parallax="scroll" data-image-src="img/pj_20151224.jpg">
+<section class="egaopj parallax-window parallax-bg_top02">
 	<div class="container">
 		<h2 class="section-title"><span>実績イコール笑顔数</span></h2>
 		<p class="section-subtitle">実績は売上よりも笑顔が獲得できたかどうか。<br>
@@ -160,9 +162,9 @@
 		</div>
 		<a class="btn" href="#">笑顔実績</a>
 	</div>
-</div>
+</section>
 
-<div class="recruit section">
+<section class="recruit">
 	<div class="container">
 		<h2 class="section-title"><span>笑顔スタッフ大募集</span></h2>
 		<p class="section-subtitle">笑顔で笑顔を生み出す会社。<br>
@@ -176,10 +178,10 @@
 		</div>
 		<a class="btn" href="#">採用情報</a>
 	</div>
-</div>
+</section>
 
 
-<div class="footer section">
+<footer class="footer">
     <div class="container">
         <h2>SITE MAP</h2>
         <div class="multicolumnbox">
@@ -234,7 +236,7 @@
         </div>
         <p id="copyright">&copy; 2013 eGAO inc. All Rights Reserved.</p>
     </div>
-</div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/nav.js"></script>
