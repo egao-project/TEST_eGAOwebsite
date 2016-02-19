@@ -8,11 +8,6 @@
 	position: relative;
 	z-index: 1; 
 }
-
-.parallax-bg_top01 {
-	background-image: url("../img/eGAO_top.jpg");
-	background-position: 30% 30%;
-}
 .parallax-bg_top01 .container {
 	position: absolute;
 	left: 50%;
@@ -26,12 +21,12 @@
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
+.parallax-bg_top01 {
+	background-image: url("../img/eGAO_top.jpg");
+	background-position: 30% 30%;
+}
 .parallax-bg_top02 {
 	background-image: url("../img/pj_20151224.jpg"); 
-}
-.parallax-bg_company01 {
-	background-image: url("../img/eGAO_company.jpg");
-	background-position: 30% 30%;
 }
 .parallax-bg_company01 .container {
 	position: absolute;
@@ -46,6 +41,10 @@
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
+.parallax-bg_company01 {
+	background-image: url("../img/eGAO_company.jpg");
+	background-position: 30% 30%;
+}
 .parallax-bg_company02 {
 	background-image: url("../img/eGAO_card.jpg");
 	background-position: 50% 50%;
@@ -58,8 +57,23 @@
 	background-image: url("../img/eGAO_company.jpg");
 	background-position: 30% 30%;
 }
-
-
+.parallax-bg_contact01 .container {
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	bottom: auto;
+	right: auto;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+.parallax-bg_contact01 {
+	background-image: url("../img/telephone.jpg");
+	background-position: 50% 50%;
+}
 
 
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/

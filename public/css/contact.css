@@ -1,0 +1,88 @@
+/* GENERAL */
+.container {
+	padding: 4em 0;
+}
+
+/* HEADER SECTION */
+
+/* HERO SECTION*/
+.hero h1 {
+	font-size: 5em;
+	letter-spacing: 0;
+	line-height: 1.1em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.hero h2 {
+	letter-spacing: 0em;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.7em;
+}
+.hero .translucent {;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* ACCESS SECTION */
+.access {
+	background-color: #00552e;
+}
+.access * {
+	color: #fff;
+}
+.access .container {
+	width: 90%;
+	max-width: 70em;
+}
+.access .multicolumnbox {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
+}
+.access .column{
+	flex: 0 0 50%;
+}
+.access .column-box {
+	margin: 0em 2em 2em 2em;
+	padding: 0em;
+	text-align: left;
+}
+.access .column-box h3 {
+	border-bottom: #fff 1px solid;
+	margin: 0;
+	padding: 0 0 0.2em 20px;
+}
+.access .column-box p {
+	padding: 0 0 0 20px;
+}
+.access li {
+	margin: 0;
+}
+.access .gmap {
+	margin: 1em 2em 0 2em;
+	position: relative;
+	padding-bottom: 50%;
+	padding-top: 0;
+	height: 0;
+	overflow: hidden;
+}
+.access .gmap iframe,
+.access .gmap object,
+.access .gmap embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* CONTACT SECTION */
+.contact .container {
+	width: 80%;
+	max-width: 30em;
+}
+.contact .container p {
+	width: 100%;
+}
