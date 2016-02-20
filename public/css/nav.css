@@ -96,6 +96,28 @@ section {
     color: #fff;
     text-align: center;
   }
+  .slide_menu img {
+    display: block;
+    margin: 3em auto 1em auto;
+    width: 10em;
+  }
+  .slide_menu p {
+    color: #fff;
+    max-width: 16em;
+    margin: 1em auto;
+    padding: 0;
+    text-align: center;
+  }
+  .slide_menu p.copyright {
+    border-top: 1px solid #fff;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff;
+    margin: 1em auto;
+    max-width: 80%;
+    padding-top: 1em;
+}
+
 }
 
 

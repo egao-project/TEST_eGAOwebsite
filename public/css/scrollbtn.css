@@ -7,9 +7,6 @@ a#scrollbtn {
 a#scrollbtn * {
 	color: #fff;
 }
-a#scrollbtn *:hover {
-	color: #f90;
-}
 a#scrollbtn p {
 	padding-top: 350px;
 }
@@ -37,6 +34,11 @@ a#scrollbtn span::after {
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	box-sizing: border-box;
+}
+a#scrollbtn *:hover,
+a#scrollbtn *:hover::after {
+	color: #f90;
+	border-color: #f90;
 }
 
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/

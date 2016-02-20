@@ -167,11 +167,6 @@ header .menu li {
 header .menu a:hover {
 	color: #f90;
 }
-header img {
-	display: block;
-	margin: 0 auto;
-	width: 30%;
-}
 header a {
 	color: #fff;
 }
@@ -436,7 +431,7 @@ footer .col01 {
 	-ms-flex-item-align: center;*/
 	/*align-self: center;*/
 }
-footer p#copyright {
+footer p.copyright {
 	border-top: 1px solid #fff;
 	font-size: 0.9em;
 	text-align: center;
