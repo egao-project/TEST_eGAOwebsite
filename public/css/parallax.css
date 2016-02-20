@@ -26,7 +26,8 @@
 	background-position: 30% 30%;
 }
 .parallax-bg_top02 {
-	background-image: url("../img/pj_20151224.jpg"); 
+	background-image: url("../img/pj_20151224.jpg");
+	background-position: 50% 50%;
 }
 .parallax-bg_company01 .container {
 	position: absolute;
