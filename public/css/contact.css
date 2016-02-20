@@ -194,23 +194,12 @@
 		padding: 0 1.5em 0 0;
 	}
 
-	/* COMPANY SECTION */
-	.company .column {
+	/* ACCESS SECTION */
+	.access .column {
 	  -webkit-box-flex: 0;
 	  -webkit-flex: 0 0 100%;
 	      -ms-flex: 0 0 100%;
 	          flex: 0 0 100%;
-	}
-
-	/* RECURITE SECTION */
-	.recruit .picup-recuruite p {
-		font-size: 1em;
-		text-align: left;
-	}
-
-	/* EGAOpj SECTION */
-	.egaopj .picup-pj p {
-		font-size: 1em;
 	}
 
 	/* FOOTER */

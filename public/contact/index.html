@@ -42,12 +42,13 @@
         <nav class="slide_menu" id="slide_menu">
             <ul>
                 <li><a href="index.html">▲</a></li>
+                <li><a href="../index.html">SITE TOP</a></li>
                 <li><a href="../company/index.html">会社紹介</a></li>
                 <li><a href="../service/index.html">サービス/実績</a></li>
                 <li><a href="../recruit/index.html">採用情報</a></li>
                 <li><a href="../contact/index.html">お問い合わせ</a></li>
             </ul>
-            <img src="img/egaoLOGO_nuki.svg">
+            <img src="../img/egaoLOGO_nuki.svg">
             <p>Company's name was named from "smile". This is the company where the people who try to produce a smile gather. The purpose of business is a smile!</p>
             <p class="copyright">&copy; 2013 eGAO inc. All Rights Reserved.</p>
             <button id="toggle-btn"><span>Menu</span><i class="fa fa-bars"></i></button>
@@ -65,7 +66,7 @@
 </div>
 </section>
 
-<section class="access">
+<section class="access" id="access">
     <div class="container">
         <h2 class="section-title"><span>アクセス</span></h2>
         <div class="multicolumnbox">
@@ -177,9 +178,8 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/nav.js"></script>
-<script type="text/javascript">
-//ページ内リンク、#非表示。スムーズスクロール
+<script src="../js/nav.js"></script>
+<script type="text/javascript">//ページ内リンク、#非表示。スムーズスクロール
   $('a[href^=#]').click(function(){
     var speed = 800;
     var href= $(this).attr("href");

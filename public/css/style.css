@@ -511,6 +511,9 @@ footer p.copyright {
 		margin: 0 auto 2em auto;
 		text-align: center;
 	}
+	p {
+		font-size: 0.8em;
+	}
 
 	/* HEADER SECTION*/
 	.header .container:after {
@@ -554,16 +557,15 @@ footer p.copyright {
 
 	/* RECURITE SECTION */
 	.recruit .picup-recuruite p {
-		font-size: 1em;
 		text-align: left;
 	}
 
 	/* EGAOpj SECTION */
-	.egaopj .picup-pj p {
-		font-size: 1em;
-	}
 
 	/* FOOTER */
+	footer h2 {
+		margin: 0.5em auto;
+	}
 	footer .column {
 	  -webkit-box-flex: 0;
 	  -webkit-flex: 0 0 100%;

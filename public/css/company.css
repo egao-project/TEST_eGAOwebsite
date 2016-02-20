@@ -293,7 +293,6 @@
 
 	/* HEADER SECTION*/
 
-
 	/* HERO SECTION*/
 
 	/* MESSAGE SECTION */
@@ -315,6 +314,18 @@
 
 	/* PHIROSOPY SECTION */
 	.phirosophy h3 {
+		font-size: 1.2em;
+		text-align: left;
+	}
+
+	/* SERVICE SECTION */
+	.service h3 {
+		font-size: 1.2em;
+		text-align: left;
+	}
+
+	/* CULTURE SECTION */
+	.culture h3 {
 		font-size: 1.2em;
 		text-align: left;
 	}
