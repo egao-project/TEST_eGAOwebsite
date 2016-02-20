@@ -77,7 +77,7 @@
 .parallax-bg_contact01 .container {
 	position: absolute;
 	left: 50%;
-	top: 52	%;
+	top: 52%;
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
