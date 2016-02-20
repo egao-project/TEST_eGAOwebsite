@@ -448,7 +448,7 @@ footer p#copyright {
 }
 
 /* @media */
-@media all and (min-width: 1280px) {
+@media (min-width: 1280px) {
 	/* HERO SECTION*/
 	.hero h1 {
 		font-size: 6em;
@@ -459,7 +459,7 @@ footer p#copyright {
 	}
 }
 
-@media all and (min-width: 600px) and (max-width: 820px) {
+@media (min-width: 600px) and (max-width: 820px) {
 
 	/* GENERAL */
 	h1 {
@@ -492,7 +492,7 @@ footer p#copyright {
 	}
 }
 
-@media all and (max-width: 599px) {
+@media (max-width: 599px) {
 	div.wide {
 		display: none;
 	}
@@ -596,7 +596,7 @@ footer p#copyright {
 }
 
 /* IE10以降専用 */
-	@media all and (-ms-high-contrast:none){
+	@media (-ms-high-contrast:none) {
 	  *	{
 	  		font-family: 'メイリオ';
 	  }
