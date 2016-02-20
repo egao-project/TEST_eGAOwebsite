@@ -47,8 +47,8 @@ a:hover {
     outline: none;
     width: 10em;
 	color: #f90;
-	letter-spacing: 0.5em;	
-	text-align: center;	
+	letter-spacing: 0.5em;
+	text-align: center;
 }
 .btn:hover {
     background: #f90;
@@ -446,7 +446,7 @@ footer p#copyright {
 }
 
 /* @media */
-@media (min-width: 1280px) {
+@media screen and (min-width : 1024px) {
 	/* HERO SECTION*/
 	.hero h1 {
 		font-size: 6em;
@@ -457,7 +457,7 @@ footer p#copyright {
 	}
 }
 
-@media (min-width: 600px) and (max-width: 820px) {
+@media screen and (min-width: 600px) and (max-width: 820px) {
 
 	/* GENERAL */
 	h1 {
@@ -490,7 +490,7 @@ footer p#copyright {
 	}
 }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
 	div.wide {
 		display: none;
 	}
@@ -594,7 +594,7 @@ footer p#copyright {
 }
 
 /* IE10以降専用 */
-	@media (-ms-high-contrast:none) {
+@media all and (-ms-high-contrast:none){
 	  *	{
 	  		font-family: 'メイリオ';
 	  }
