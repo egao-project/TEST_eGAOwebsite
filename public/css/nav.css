@@ -3,7 +3,6 @@
 @-ms-viewport	{
 	width: device-width;
 }
-
 html {
   position: relative;
   overflow-x: hidden;
@@ -13,7 +12,9 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-
+section {
+  overflow-x: hidden;
+}
 
 .slide_menu {
 	display: none;
