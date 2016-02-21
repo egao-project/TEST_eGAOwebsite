@@ -58,6 +58,23 @@
 	background-image: url("../img/eGAO_company.jpg");
 	background-position: 30% 30%;
 }
+.parallax-bg_service01 {
+	background-image: url("../img/service.jpg");
+	background-position: 50% 100%;
+}
+.parallax-bg_service01 .container {
+	position: absolute;
+	left: 50%;
+	top: 57%;
+	bottom: auto;
+	right: auto;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
 .parallax-bg_contact01 .container {
 	position: absolute;
 	left: 50%;

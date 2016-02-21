@@ -8,20 +8,26 @@
 /* HERO SECTION*/
 .hero h1 {
 	font-size: 5em;
-	letter-spacing: 0;
+	letter-spacing: 0.2em;
 	line-height: 1.1em;
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 0.2em;
 }
 .hero h2 {
 	letter-spacing: 0em;
 	text-align: center;
 	padding: 0;
 	padding-top: 0.7em;
+	vertical-align: middle;
+}
+.hero h2 img{
+	width: 1.3em;
+	padding: 0 0.2em 0.2em 0.2em;
+	vertical-align: middle;
 }
 .hero .translucent {;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.2);
 }
 
 /* ACCESS SECTION */
