@@ -290,6 +290,10 @@
 		margin: 0 auto 2em auto;
 		text-align: center;
 	}
+	section p,
+	section li {
+		font-weight: 0.8em;
+	}
 
 	/* HEADER SECTION*/
 
