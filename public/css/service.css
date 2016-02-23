@@ -122,24 +122,37 @@ section.green p
 	justify-content: space-around;
 }
 .servicemenu .column_row {
-    border: 1px solid rgba(0, 85, 46, 0.2);
+	background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
 }
+.servicemenu .column_row .translucent {
+	background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 85, 46, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
 section.green .column_row {
+	background: rgba(0, 0, 0, 0.2);
     border: 2px solid rgba(0, 85, 46, 1);
     border-radius: 10px;
 }
+section.green .column_row .translucent {
+	background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 85, 46, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
 .servicemenu .column_row1 {
-    background-color: rgba(0, 0, 0, 0.2);
     padding: 0;
 	-webkit-box-flex: 0;
 	-webkit-flex: 0 0 100%;
 	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
-/*	max-width: 100%;*/
 }
 .servicemenu .column_row2 {
-    background-color: rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 0;
 	-webkit-box-flex: 0;
@@ -148,7 +161,6 @@ section.green .column_row {
 	flex: 0 0 50%;
 }
 .servicemenu .column_row3 {
-    background-color: rgba(0, 0, 0, 0.2);
   	margin: 0;
     padding: 0;
 	-webkit-box-flex: 0;
@@ -159,8 +171,7 @@ section.green .column_row {
 .servicemenu .column-box {
 	margin: 0 auto;
 	padding: 1em;
-	text-align: center;
-	max-width: 30em;
+	max-width: 32em;
 }
 .servicemenu .column-box h3 {
 /*	border-bottom: 1px solid #fff;*/
