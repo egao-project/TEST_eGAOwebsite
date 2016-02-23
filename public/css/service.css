@@ -2,6 +2,10 @@
 .container {
 	padding: 4em 0;
 }
+.section-title {
+	letter-spacing: 0;
+}
+
 
 /* HEADER SECTION */
 
@@ -18,7 +22,7 @@
 	color: #fff;
 	font-size: 2.3em;
 	line-height: 1.4em;
-	margin: 0;
+	margin: 0 0 0.3em 0;
 	text-align: center;
 	text-shadow:
 	0px 0px 25px rgba(97, 97, 97, 0.7),
@@ -37,21 +41,63 @@
 	letter-spacing: 0em;
 	line-height: 1em;
 	text-align: center;
+	margin: 0 0 0.3em 0;
 	padding: 0;
 	padding-top: 0.7em;
 	vertical-align: middle;
+}
+.hero .btn {
+	background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+	color: #fff;
+    cursor: pointer;
+    display: block;
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 1;
+	vertical-align: middle;
+    margin: 1em auto;
+    text-decoration: none;
+    padding: 5px 1em 7px 1em;
+    outline: none;
+    width: 50%;
+	text-align: center;
+}
+.hero .btn:hover {
+    border: 1px solid #f90;
+    color: #f90;
+    font-weight: bold;
+	text-shadow:
+	0px 0px 25px rgba(97, 97, 97, 0.7),
+	0px 0px 20px rgba(97, 97, 97, 0.7);
 }
 .hero .translucent {;
 	background: rgba(0, 0, 0, 0.2);
 }
 
 /* SWEVICEMWNU SECTION */
+
+section.green {
+	background-color: #00552e;
+}
+section.green h2,
+section.green h3,
+section.green p
+ {
+	color: #fff;
+}
+section.green .column-box {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
 .servicemenu h2 {
+	line-height: 1.2;
 	margin-bottom: 1em;
 }
 .servicemenu .multicolumnbox {
-	border-top: 1px dotted #00552e;
-	padding: 1em;
+	margin: 0;
+	padding: 0;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -64,42 +110,87 @@
 	-ms-flex-pack: center;
 	justify-content: center;
 }
-.servicemenu .multicolumnbox:last-child {
-	border-bottom: 1px dotted #00552e;
+.servicemenu .column_row1 {
+    margin: 0;
+    padding: 0;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
 }
-.servicemenu .column {
+.servicemenu .column_row2 {
+    margin: 0;
+    padding: 0;
 	-webkit-box-flex: 0;
 	-webkit-flex: 0 0 50%;
 	-ms-flex: 0 0 50%;
 	flex: 0 0 50%;
 	max-width: 50%;
 }
+.servicemenu .column_row3 {
+    margin: 0;
+    padding: 0;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 33.3333%;
+	-ms-flex: 0 0 33.3333%;
+	flex: 0 0 33.3333%;
+}
 .servicemenu .column-box {
-	margin-bottom: 2em;
+/*	background: rgba(0, 85, 46, 1);*/
+    border: 1px solid rgba(0, 85, 46, 0.2);
+    border-radius: 4px;
+	margin: 1px;
+	padding: 1em;
 	text-align: center;
 }
 .servicemenu .column-box h3 {
 	font-size: 1.5em;
 	font-weight: bold;
+	line-height: 1.1;
 	margin: 0;
 	padding: 0;
-	text-align: left;
-}
-.servicemenu p img{
-	width: 1.2em;
-	padding: 0 0.1em 0.2em 0.1em;
-	vertical-align: middle;
+	text-align: center;
 }
 .servicemenu .column-box p {
 	font-size: 1em;
 	line-height: 1.4em;
-	margin: 0;
+	margin: 0.5em auto 0 auto;
 	padding: 0;
-	text-align: left;
+	max-width: 26em;
+	text-align: center;
 }
-
-
-
+.servicemenu p.egaocount {
+	font-size: 1em;
+	margin: 0.5em auto 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.servicemenu p img{
+	width: 1.2em;
+	padding: 0 0 0.2em 0;
+	vertical-align: middle;
+}
+.servicemenu .btn {
+	background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #f90;
+    border-radius: 6px;
+	color: #f90;
+    cursor: pointer;
+    display: block;
+    margin: 2em auto 0 auto;
+    text-decoration: none;
+    padding: 0.5em 1.5em 0.5em 2em;
+    outline: none;
+    width: 20em;
+	color: #f90;
+	letter-spacing: 0.5em;
+}
+.servicemenu .btn:hover {
+    background: #f90;
+    color: #fff;
+    font-weight: bold;
+}
 /* @media */
 @media (min-width: 1280px) {
 	/* HERO SECTION*/

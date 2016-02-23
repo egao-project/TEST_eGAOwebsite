@@ -34,27 +34,7 @@ a:hover {
 	width: 90%;
 	max-width: 1000px;
 }
-.btn {
-	background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #f90;
-    border-radius: 6px;
-	color: #f90;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    text-decoration: none;
-    padding: 0.5em 1.5em 0.5em 2em;
-    outline: none;
-    width: 10em;
-	color: #f90;
-	letter-spacing: 0.5em;
-	text-align: center;
-}
-.btn:hover {
-    background: #f90;
-    color: #fff;
-    font-weight: bold;
-}
+
 h1 {
 	font-size: 5em;
 	font-weight: normal;
