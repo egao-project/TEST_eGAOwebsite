@@ -8,6 +8,7 @@ a#scrollbtn * {
 	color: #fff;
 }
 a#scrollbtn p {
+	font-size: 1em;
 	padding-top: 350px;
 }
 a#scrollbtn span {

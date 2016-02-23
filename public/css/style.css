@@ -300,11 +300,6 @@ header a {
 }
 .egaopj {
 	border-style: none;
-/*	background: url('../img/pj_20151224.jpg') no-repeat;
-	background-position: 50% 50%;
-	background-size: cover;
-	height: 500px;*/
-
 }
 .egaopj .picup-pj {
 	background-color: rgba(0, 0, 0, 0.4);
@@ -336,108 +331,6 @@ header a {
 }
 .recruit .picup-recuruite p {
 	font-size: 1.3em;
-}
-
-
-/* FOOTER SECTION */
-footer * {
-	color: #fff;
-	text-align: center;
-}
-footer {
-    background: #00552e;
-	margin: 0;
-	padding: 0;
-}
-footer .container {
-	padding: 2em 0 1em 0;
-}
-footer .multicolumnbox {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-footer .column {
-  -webkit-box-flex: 0 0 20%;
-  -webkit-flex: 0 0 20%;
-      -ms-flex: 0 0 20%;
-          flex: 0 0 20%;
-    padding: 0;
-    max-width: 10em;
-}
-
-footer .column-box {
-	width: auto;
-	max-width: auto;
-	text-align: center;
-}
-footer h2 {
-    color: #fff;
-    line-height: 1em;
-	font-size: 1.5em;
-	margin: 0;
-	padding: 0 0 0.5em 0;
-	text-align: center;
-}
-footer h3 {
-    color: #fff;
-	font-size: 1.2em;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-footer img {
-	width: 70%;
-	max-width: 10em;
-	margin: 0;
-	padding: 0;
-}
-footer .column-box > p {
-	font-size: 0.6em;
-    color: #fff;
-	margin: 0;
-	padding: 0 0.5em 0 1em;
-	text-align: left;
-}
-footer ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-footer li {
-	color: #fff;
-	font-size: 0.9em;
-	line-height: 1em;
-	padding: 0.3em 0;
-}
-footer li>a {
-	color: #fff;
-	font-size: 0.9em;
-	line-height: 1em;
-}
-footer li>a:hover {
-	color: #f90;
-}
-footer .col01 {
-/*	-webkit-align-self: center;
-	-ms-flex-item-align: center;*/
-	/*align-self: center;*/
-}
-footer p.copyright {
-	border-top: 1px solid #fff;
-	font-size: 0.9em;
-	text-align: center;
-    color: #fff;
-	margin: 1em 0 0 0;
-	padding-top: 1em;
 }
 
 /* @media */
@@ -565,40 +458,4 @@ footer p.copyright {
 
 	/* EGAOpj SECTION */
 
-	/* FOOTER */
-	footer h2 {
-		margin: 0.5em auto;
-	}
-	footer .column {
-	  -webkit-box-flex: 0;
-	  -webkit-flex: 0 0 100%;
-	      -ms-flex: 0 0 100%;
-	          flex: 0 0 100%;
-	    padding-bottom: 2em;
-	    max-width: 80%;
-	    justify-content: 
-	}
-	footer .col01 {
-		-webkit-box-ordinal-group: 3;
-		-webkit-order: 2;
-		-ms-flex-order: 2;
-		order: 2;
-		padding: 0 0 0 0;
-	}
-	footer .column-box > p {
-		display: block;
-		font-size: 0.8em;
-		margin: 0 auto;
-		padding: 0 0 0 1em;
-	}
-}
-
-/* IE10以降専用 */
-@media all and (-ms-high-contrast:none) {
-	  *	{
-	  		font-family: 'メイリオ';
-	  }
-	  h2, h3, h4, h5, a, p, span, ul, ol, li {
-	  		font-family: 'メイリオ';
-	  }
 }
