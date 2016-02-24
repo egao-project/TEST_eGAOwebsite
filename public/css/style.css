@@ -86,7 +86,6 @@ input[type="email"], input {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 	padding: 0.3em 1em;
-
 }
 input[type="text"]:focus, textarea:focus,
 input[type="email"]:focus:focus, input:focus {
