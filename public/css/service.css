@@ -237,6 +237,13 @@ section.green p
 	-ms-flex-pack: center;
 	justify-content: space-around;
 }
+/* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
+@media screen and (max-device-width: 1024px) {
+	.servicemenu .multicolumnbox {
+		background-attachment: scroll;
+	}
+}
+
 .servicemenu .column_row {
 	background: rgba(0, 0, 0, 0.8);
     border: 2px solid rgba(255, 255, 255, 1);
