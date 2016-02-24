@@ -94,15 +94,6 @@ section.servicemenu .btn:hover {
     font-weight: bold;
 }
 
-section.green {
-	background-color: #00552e;
-}
-section.green h2,
-section.green h3,
-section.green p
- {
-	color: #fff;
-}
 
 /* @media */
 @media (min-width: 1280px) {
@@ -219,7 +210,6 @@ section.green p
 	margin-bottom: 1em;
 }
 .servicemenu .multicolumnbox {
-	background-image: url("../img/telephone.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -237,16 +227,30 @@ section.green p
 	-ms-flex-pack: center;
 	justify-content: space-around;
 }
+.servicemenu .multicolumnbox01 {
+	background-image: url("../img/man-people-space-desk.jpg");
+}
+.servicemenu .multicolumnbox02 {
+	background-image: url("../img/man-people-space-desk.jpg");
+}
+.servicemenu .multicolumnbox03 {
+	background-image: url("../img/man-people-space-desk.jpg");
+}
+.servicemenu .multicolumnbox04 {
+	background-image: url("../img/man-people-space-desk.jpg");
+}
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
 @media screen and (max-device-width: 1024px) {
-	.servicemenu .multicolumnbox {
+	.servicemenu .multicolumnbox01,
+	.servicemenu .multicolumnbox02,
+	.servicemenu .multicolumnbox03,
+	.servicemenu .multicolumnbox04 {
 		background-attachment: scroll;
 	}
 }
-
 .servicemenu .column_row {
 	background: rgba(0, 0, 0, 0.8);
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 4px solid rgba(255, 255, 255, 1);
 }
 
 .servicemenu .column-box {
@@ -263,6 +267,7 @@ section.green p
 	text-align: center;
 }
 .servicemenu .column-box p {
+	color: 
 	font-size: 1em;
 	line-height: 1.4em;
 	margin: 0.5em auto 0 auto;
@@ -288,6 +293,7 @@ section.green p
 	margin: 0;
 	padding: 0 1em 0 0;
 }
+
 /* SWEVICEMWNU SECTION column_row1 */
 .servicemenu .column_row1 {
     padding: 0;
@@ -314,6 +320,7 @@ section.green p
 	width: 1.2em;
 	padding: 0 0 0.3em 0;
 }
+
 /* SWEVICEMWNU SECTION  column_row2 */
 .servicemenu .column_row2 {
     margin: 0;
@@ -337,6 +344,7 @@ section.green p
 	margin: 0.4em auto 0 auto;
 	padding: 0.3em 0 0 0;
 }
+
 /* SWEVICEMWNU SECTION  column_row3 */
 .servicemenu .column_row3 {
   	margin: 0;
@@ -369,8 +377,32 @@ section.green p
 }
 
 /* SWEVICEMWNU SECTION GREEN */
+section.green {
+	background-color: #00552e;
+}
+section.green h2 {
+	color: #fff;
+}
+section.green h3,
+section.green p {
+	color: #00552e;
+}
 section.green .column_row {
-	background: rgba(0, 0, 0, 0.8);
-    border: 2px solid rgba(0, 85, 46, 1);
-/*    border-radius: 10px;*/
+	background: rgba(200, 200, 200, 0.7);
+    border: 4px solid rgba(0, 85, 46, 1);
+}
+section.green .column-box p.egaocount {
+	border-top: 1px solid #fff;
+	font-size: 1em;
+	margin: 0.5em auto 0 auto;
+	padding: 0.4em 0 0 0;
+	text-align: center;
+}
+section.green .column-box p img{
+	width: 1.2em;
+	padding: 0 0 0.2em 0;
+	vertical-align: middle;
+}
+section.green p.continue {
+	color: #fff;
 }
