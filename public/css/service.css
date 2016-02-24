@@ -238,17 +238,10 @@ section.green p
 	justify-content: space-around;
 }
 .servicemenu .column_row {
-/*	background: rgba(0, 0, 0, 0.2);*/
-    border: 2px solid rgba(255, 255, 255, 1);
-/*    border-radius: 4px;*/
-}
-.servicemenu .translucent {
 	background: rgba(0, 0, 0, 0.8);
-/*	*/
-/*    border-radius: 4px;*/
-    width: 100%;
-    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 1);
 }
+
 .servicemenu .column-box {
 	margin: 0 auto;
 	padding: 1em;
@@ -370,14 +363,7 @@ section.green p
 
 /* SWEVICEMWNU SECTION GREEN */
 section.green .column_row {
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.8);
     border: 2px solid rgba(0, 85, 46, 1);
 /*    border-radius: 10px;*/
-}
-section.green .column_row .translucent {
-	background: rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(0, 85, 46, 0.2);
-/*    border-radius: 4px;*/
-    width: 100%;
-    height: 100%;
 }
