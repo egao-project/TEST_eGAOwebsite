@@ -439,10 +439,6 @@ section.green .column_row .translucent {
 	margin: 0.4em auto 0 auto;
 	padding: 0.3em 0 0 0;
 }
-.servicemenu .column_row2 p img{
-	width: 1.2em;
-	padding: 0 0 0.3em 0;
-}
 /* SWEVICEMWNU SECTION  column_row3 */
 .servicemenu .column_row3 {
   	margin: 0;
@@ -453,23 +449,20 @@ section.green .column_row .translucent {
 	flex: 0 0 33.3333%;
 }
 .servicemenu .column_row3 .column-box h3 {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 .servicemenu .column_row3 .column-box p {
-	font-size: 1em;
+	font-size: 0.8em;
 	line-height: 1.4;
-	margin: 0.5em auto 0 auto;
+	margin: 0.3em auto 0 auto;
 	padding: 0;
 }
 .servicemenu .column_row3 p.egaocount {
-	font-size: 1em;
-	margin: 0.5em auto 0 auto;
-	padding: 0.4em 0 0 0;
+	font-size: 0.8em;
+	margin: 0.3em auto 0 auto;
+	padding: 0.2em 0 0 0;
 }
-.servicemenu .column_row3 p img{
-	width: 1.2em;
-	padding: 0 0 0.2em 0;
-}
+
 /* SWEVICEMWNU SECTION GREEN */
 section.green .column_row {
 	background: rgba(0, 0, 0, 0.2);
