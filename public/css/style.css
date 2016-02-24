@@ -247,9 +247,9 @@ header a {
 }
 .company .column {
 	-webkit-box-flex: 0;
-	-webkit-flex: 0 0 33.3333%;
-	-ms-flex: 0 0 33.3333%;
-	flex: 0 0 33.3333%;
+	-webkit-flex: 0 0 33.33333%;
+	-ms-flex: 0 0 33.33333%;
+	flex: 0 0 33.33333%;
 	max-width: 18em;
 }
 .company .column-box {

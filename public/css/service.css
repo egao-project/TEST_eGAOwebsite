@@ -53,16 +53,17 @@
 	color: #fff;
     cursor: pointer;
     display: block;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;
 	letter-spacing: 0;
 	line-height: 1;
 	vertical-align: middle;
     margin: 1em auto;
     text-decoration: none;
-    padding: 5px 1em 7px 1em;
+    padding: 5px 1em 6px 1em;
     outline: none;
     width: 50%;
+    max-width: 20em;
 	text-align: center;
 }
 .btn:hover {
@@ -75,7 +76,43 @@
 	0px 0px 25px rgba(97, 97, 97, 0.7),
 	0px 0px 20px rgba(97, 97, 97, 0.7);
 }
-.hero .translucent {;
+.hero a#scrollbtn {
+	color: #fff;
+	position: absolute;
+	bottom: 5%;
+	left: 48%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.hero i.scrollbtn {
+	color: #fff;
+	font-size: 2.5em;
+	margin: 0;
+	padding: 0;
+}
+.hero p.scrollbtnp {
+	color: #fff;
+	line-height: 0.6;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+/*.hero a#scrollbtn:hover {
+    color: #f90;
+	text-shadow:
+	0px 0px 25px rgba(97, 97, 97, 0.7),
+	0px 0px 20px rgba(97, 97, 97, 0.7);
+}*/
+.hero i.scrollbtn:hover,
+.hero p.scrollbtnp:hover {
+    color: #f90;
+	text-shadow:
+	0px 0px 25px rgba(97, 97, 97, 0.7),
+	0px 0px 20px rgba(97, 97, 97, 0.7);
+}
+.hero .translucent {
 	background: rgba(0, 0, 0, 0.3);
 }
 
@@ -93,6 +130,10 @@ section.servicemenu .btn:hover {
     color: #f90;
     font-weight: bold;
 }
+
+
+
+
 
 
 /* @media */
@@ -204,15 +245,22 @@ section.servicemenu .btn:hover {
 
 
 
+
+
+
 /* SWEVICEMWNU SECTION */
+.servicemenu .container {
+	width: 90%;
+	max-width: 1200px;
+}
 .servicemenu h2 {
 	line-height: 1.2;
-	margin-bottom: 1em;
 }
 .servicemenu .multicolumnbox {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-position: 60% 50%;
 	margin: 0;
 	padding: 0;
 	display: -webkit-box;
@@ -225,34 +273,46 @@ section.servicemenu .btn:hover {
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
-	justify-content: space-around;
+	justify-content: flex-start;
 }
 .servicemenu .multicolumnbox01 {
 	background-image: url("../img/man-people-space-desk.jpg");
+	background-attachment: scroll;
 }
 .servicemenu .multicolumnbox02 {
-	background-image: url("../img/man-people-space-desk.jpg");
+	background-image: url("../img/culture.jpg");
+	background-attachment: scroll;
 }
 .servicemenu .multicolumnbox03 {
-	background-image: url("../img/man-people-space-desk.jpg");
+	background-image: url("../img/php.jpg");
+	background-attachment: scroll;
 }
 .servicemenu .multicolumnbox04 {
-	background-image: url("../img/man-people-space-desk.jpg");
+	background-image: url("../img/hdd.jpg");
+	background-attachment: scroll;
+}
+.servicemenu .multicolumnbox05 {
+	background-image: url("../img/pj_20160219.jpg");
+	background-attachment: scroll;
+}
+.servicemenu .multicolumnbox06 {
+	background-image: url("../img/pj_20151224.jpg");
+	background-attachment: scroll;
+}
+.servicemenu .multicolumnbox07 {
+	background-image: url("../img/culture.jpg");
+	background-attachment: scroll;
 }
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
 @media screen and (max-device-width: 1024px) {
 	.servicemenu .multicolumnbox01,
 	.servicemenu .multicolumnbox02,
 	.servicemenu .multicolumnbox03,
-	.servicemenu .multicolumnbox04 {
+	.servicemenu .multicolumnbox04,
+	.servicemenu .multicolumnbox05 {
 		background-attachment: scroll;
 	}
 }
-.servicemenu .column_row {
-	background: rgba(0, 0, 0, 0.8);
-    border: 4px solid rgba(255, 255, 255, 1);
-}
-
 .servicemenu .column-box {
 	margin: 0 auto;
 	padding: 1em;
@@ -267,7 +327,6 @@ section.servicemenu .btn:hover {
 	text-align: center;
 }
 .servicemenu .column-box p {
-	color: 
 	font-size: 1em;
 	line-height: 1.4em;
 	margin: 0.5em auto 0 auto;
@@ -350,9 +409,9 @@ section.servicemenu .btn:hover {
   	margin: 0;
     padding: 0;
 	-webkit-box-flex: 0;
-	-webkit-flex: 0 0 33.3333%;
-	-ms-flex: 0 0 33.3333%;
-	flex: 0 0 33.3333%;
+	-webkit-flex: 0 0 33%;
+	-ms-flex: 0 0 33%;
+	flex: 0 0 33%;
 }
 .servicemenu .column_row3 .column-box h3 {
 	font-size: 1em;
@@ -368,19 +427,23 @@ section.servicemenu .btn:hover {
 	margin: 0.3em auto 0 auto;
 	padding: 0.2em 0 0 0;
 }
-.servicemenu p.continue {
-	font-size: 1.6em;
-	font-weight: 100;
-	text-align: right;
-	margin: 0;
-	padding: 0 1em 0 0;
+/* SWEVICEMWNU SECTION row3rd */
+.servicemenu .row3rd {
+  	margin: 0;
+    padding: 0;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 34%;
+	-ms-flex: 0 0 34%;
+	flex: 0 0 34%;
 }
+
 
 /* SWEVICEMWNU SECTION GREEN */
 section.green {
 	background-color: #00552e;
 }
-section.green h2 {
+section.green h2,
+section.green p.section-subtitle {
 	color: #fff;
 }
 section.green h3,
@@ -388,21 +451,52 @@ section.green p {
 	color: #00552e;
 }
 section.green .column_row {
-	background: rgba(200, 200, 200, 0.7);
+	background: rgba(255, 255, 255, 0.7);
     border: 4px solid rgba(0, 85, 46, 1);
 }
 section.green .column-box p.egaocount {
-	border-top: 1px solid #fff;
-	font-size: 1em;
-	margin: 0.5em auto 0 auto;
-	padding: 0.4em 0 0 0;
-	text-align: center;
-}
-section.green .column-box p img{
-	width: 1.2em;
-	padding: 0 0 0.2em 0;
-	vertical-align: middle;
+	border-top: 1px solid #00552e;
 }
 section.green p.continue {
 	color: #fff;
+}
+
+/* SWEVICEMWNU SECTION WHITE */
+section.white {
+	background-color: #fff;
+}
+section.white h2,
+section.white p.section-subtitle {
+	color: #00552e;
+}
+section.white h3,
+section.white p {
+	color: #fff;
+}
+section.white .column_row {
+	background: rgba(0, 85, 46, 0.8);
+    border: 4px solid rgba(255, 255, 255, 1);
+}
+section.white .multicolumnbox05 .column_row,
+section.white .multicolumnbox06 .column_row,
+section.white .multicolumnbox07 .column_row {
+	background: rgba(0, 85, 46, 0.2);
+}
+section.white .multicolumnbox05 .column-box,
+section.white .multicolumnbox06 .column-box,
+section.white .multicolumnbox07 .column-box {
+	background: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.);
+	box-shadow: 0 0 7px #eee;
+	border-radius: 8px;
+	margin: 2em auto;
+	padding: 1em 2em 1em 2em;
+	max-width: 50em;
+}
+section.white .column-box p.egaocount {
+	border-top: 1px solid #fff;
+}
+section.white p.continue {
+	color: #00552e;
+	font-weight: 300;
 }
