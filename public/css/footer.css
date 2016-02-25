@@ -118,7 +118,10 @@ footer p#copyright {
 	          flex: 0 0 100%;
 	    padding-bottom: 2em;
 	    max-width: 80%;
-	    justify-content: 
+	    -webkit-box-pack:;
+	    -webkit-justify-content:;
+	        -ms-flex-pack:;
+	            justify-content: 
 	}
 	footer .col01 {
 		-webkit-box-ordinal-group: 3;

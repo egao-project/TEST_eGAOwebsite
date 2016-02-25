@@ -13,7 +13,7 @@
 	color: #00552e;
 	line-height: 1.6em;
 	font-family: Lato, "メイリオ", "Meiryo", sans-serif;
-	font-weight: normal:;
+	font-weight: normal;
     -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
        box-sizing: border-box;
@@ -101,7 +101,11 @@ textarea {
 div.narrow {
 	display: none;
 }
-
+.btn {
+	letter-spacing: 0.2em;
+    /*padding: 5px 1em 6px 1em;*/
+    padding: 5px 1.2em 6px 1em;
+}
 
 /* HEADER SECTION */
 header {
@@ -274,9 +278,6 @@ header a {
 
 
 /* EGAOpj SECTION */
-.egaopj * {
-	color: #fff;
-}
 .egaopj {
 	border-style: none;
 }
@@ -289,15 +290,18 @@ header a {
 	text-align: center;
 	width: 80%;
 }
+.egaopj * {
+	color: #fff;
+}
 .egaopj .picup-pj p {
 	font-size: 2em;
 }
 .egaopj .btn{
 	color: #f90;
 }
-.egaopj .btn:hover {
+/*.egaopj .btn:hover {
 	color: #fff;
-}
+}*/
 
 /* RECURITE SECTION */
 .recruit .picup-recuruite {

@@ -36,12 +36,20 @@
 	max-width: 70em;
 }
 .access .multicolumnbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	margin-top: 1em;
 }
 .access .column{
-	flex: 0 0 50%;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 50%;
+	    -ms-flex: 0 0 50%;
+	        flex: 0 0 50%;
 }
 .access .column-box {
 	margin: 0em 2em 2em 2em;
