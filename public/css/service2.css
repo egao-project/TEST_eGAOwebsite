@@ -224,8 +224,10 @@ section.servicemenu .btn:hover {
 
 /* SWEVICEMWNU SECTION */
 .servicemenu .container {
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	max-width: 100%;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 .servicemenu h2 {
 	line-height: 1.2;
