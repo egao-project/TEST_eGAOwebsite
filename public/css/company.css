@@ -11,10 +11,11 @@
 	/*color: #333;*/
 	color: #fff;
 	letter-spacing: 0.1em;
-	padding: 0 0.3em 0 0;
+	padding: 0;
 }
 .hero h2 {
 	font-family: Lato, 'メイリオ', sans-serif;
+	padding: 0 2em 0 0;
 }
 
 /* MESSAGE SECTION */
