@@ -28,12 +28,6 @@ a {
 a:hover {
 	color: #f90;
 }
-.container {
-	margin: 0 auto;
-	padding: 3em 0;
-	width: 90%;
-	max-width: 1000px;
-}
 
 h1 {
 	font-size: 5em;
@@ -50,6 +44,15 @@ h2, h2 span {
 h3 {
 	font-size: 2em;
 	font-weight: normal;
+}
+section {
+	position: relative;
+}
+.container {
+	margin: 0 auto;
+	padding: 3em 0;
+	width: 90%;
+	max-width: 1000px;
 }
 .section-title {
 	letter-spacing: 0.5em;
@@ -205,7 +208,7 @@ header a {
 	display: block;
 	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	letter-spacing: 0.2em;
-	line-height: 1.2em;
+	line-height: 1.2;
 	text-align: right;
 	margin: 0 -0.2em 0 0;
 	padding: 0;

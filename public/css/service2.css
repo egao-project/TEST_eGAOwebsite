@@ -50,42 +50,6 @@
     border: 1px solid #fff;
 	color: #fff;
 }
-.hero a#scrollbtn {
-	color: #fff;
-	position: absolute;
-	bottom: 5%;
-	left: 48%;
-	display: block;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-.hero i.scrollbtn {
-	color: #fff;
-	font-size: 2.5em;
-	margin: 0;
-	padding: 0;
-}
-.hero p.scrollbtnp {
-	color: #fff;
-	line-height: 0.6;
-	font-size: 1.2em;
-	margin: 0;
-	padding: 0;
-}
-/*.hero a#scrollbtn:hover {
-    color: #f90;
-	text-shadow:
-	0px 0px 25px rgba(97, 97, 97, 0.7),
-	0px 0px 20px rgba(97, 97, 97, 0.7);
-}*/
-.hero i.scrollbtn:hover,
-.hero p.scrollbtnp:hover {
-    color: #f90;
-	text-shadow:
-	0px 0px 25px rgba(97, 97, 97, 0.7),
-	0px 0px 20px rgba(97, 97, 97, 0.7);
-}
 .hero .translucent {
 	background: rgba(0, 0, 0, 0.3);
 }
