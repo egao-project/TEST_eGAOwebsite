@@ -15,9 +15,6 @@
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
@@ -36,9 +33,6 @@
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
@@ -69,28 +63,30 @@
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
 .parallax-bg_recruit01 .container {
 	position: absolute;
 	left: 50%;
-	top: 55%;
+	top: 52%;
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
 .parallax-bg_recruit01 {
 	background-image: none;
 	background-position: 30% 30%;
+}
+.parallax-bg_recruit02{
+	background-image: none;
+/*	background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4)), url("../img/park.jpg"), no-repeat;
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4)), url("../img/park.jpg"), no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;  
+	background-attachment: fixed;  */
 }
 .parallax-bg_contact01 .container {
 	position: absolute;
@@ -99,9 +95,6 @@
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
@@ -116,9 +109,6 @@
 	bottom: auto;
 	right: auto;
 	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
