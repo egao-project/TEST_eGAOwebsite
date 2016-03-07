@@ -174,7 +174,9 @@ section.feature {
 	border-bottom: none;
 }
 .feature .column_row1 {
-	/*border: 1em solid #eee;*/
+	border-left: 1em solid #eee;
+	border-right: 1em solid #eee;
+	border-bottom: 1em solid #eee;
 	margin: 0;
     padding: 0;
 	-webkit-box-flex: 0;
@@ -184,14 +186,14 @@ section.feature {
 }
 .feature .row1_01 {
 	background-image: url("../img/feature01.jpg");
-	background-position: bottom left;
+	background-position: 0 100;
 	background-size: cover;  
 	background-attachment: scroll;  
 	background-repeat: no-repeat;
 }
 .feature .row1_02 {
-	background-image: url("../img/egao_studio01.jpg");
-	background-position: bottom left;
+	background-image: url("../img/rainbow.jpg");
+	background-position: 50% 0%;
 	background-size: cover;  
 	background-attachment: scroll;  
 	background-repeat: no-repeat;
