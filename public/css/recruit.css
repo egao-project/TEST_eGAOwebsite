@@ -237,6 +237,38 @@ section.feature {
 	width: 100%;
 }
 
+/* SUMMARY SECTION */
+.summary .container {
+/*	width: 70%;*/
+	max-width: 50em;
+}
+.summary table {
+	background: #00552e;
+	margin: 2em 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+.summary th {
+	border-bottom: #fff 1px solid;
+	color: #fff;
+	text-align: right;
+	background: #00552e;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	width: 10em
+}
+.summary tr:last-child th  {
+	border-bottom: #00552e 1px solid;
+}
+.summary td {
+	background: #fff;
+	border: #00552e 1px solid;
+	text-align: left;
+	padding: 10px 20px 10px 20px;
+}
+.summary li {
+	margin: 0 10px 0 -20px;
+}
 
 
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
