@@ -113,8 +113,6 @@ div.narrow {
 /* HEADER SECTION */
 header {
 	display: block;
-/*	background: rgba(0, 0, 0, 0.5);*/
-	/*position: fixed;*/
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -226,7 +224,7 @@ header a {
 	letter-spacing: 0.1em;
 	line-height: 1.2;
 	text-align: right;
-	padding: 0 3em 0 0;
+	padding: 0.5em 3em 0 0;
 	text-shadow:
 	-1px -1px 0px rgba(97, 97, 97, 0.2),
 	1px -1px 0px rgba(97, 97, 97, 0.2),
@@ -235,7 +233,6 @@ header a {
 	0px 0px 30px rgba(97, 97, 97, 0.7),
 	0px 0px 20px rgba(97, 97, 97, 1),
 	0px 0px 15px rgba(97, 97, 97, 1);
-	padding-top: 1em;
 }
 
 /* COMPANY SECTION */

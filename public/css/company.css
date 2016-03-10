@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+@-ms-viewport	{
+	width: device-width;
+}
+
 /* GENERAL */
 .container {
 	padding: 4em 0;
@@ -8,14 +14,12 @@
 /* HERO SECTION*/
 .hero h1 {
 	font-size: 5em;
-	/*color: #333;*/
-	color: #fff;
 	letter-spacing: 0.1em;
 	padding: 0;
 }
 .hero h2 {
 	font-family: Lato, 'メイリオ', sans-serif;
-	padding: 0 2em 0 0;
+	padding: 0.5em 2em 0 0;
 }
 
 /* MESSAGE SECTION */

@@ -1,12 +1,12 @@
-* {
-	margin: 0;
-	padding: 0;
+@charset "UTF-8";
+
+@-ms-viewport	{
+	width: device-width;
 }
 
 body {
 	margin:0;
 	background:#fff;
-
 }
 section,
 footer {
@@ -161,7 +161,7 @@ section.feature {
 .feature .multicolumnbox {
 	border-bottom: 1px solid #00552e;
 	margin: 0;
-	padding: 1em 0 0 0;
+	padding: 0;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -231,6 +231,8 @@ section.feature {
 	font-size: 1.4em;
 	font-weight: bold;
 	line-height: 1.4;
+	margin: 0;
+	padding: 0;
 }
 .feature .column-box p {
 	line-height: 1.4;

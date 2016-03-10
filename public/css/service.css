@@ -1,6 +1,13 @@
+@charset "UTF-8";
+
+@-ms-viewport	{
+	width: device-width;
+}
+
 /* GENERAL */
 section {
 	position: relative;
+	padding-bottom: 3em;
 }
 .container {
 	padding: 4em 0;
@@ -269,6 +276,9 @@ section.green .column-box p.egaocount {
 section.green p.continue {
 	color: #fff;
 }
+section.green a.scrollbtn_a {
+    bottom: 4em;
+}
 section.green p.scrollbtn_p,
 section.green i.fa {
 	color: #fff;
@@ -315,6 +325,9 @@ section.white .column-box p.egaocount {
 section.white p.continue {
 	color: #00552e;
 	font-weight: 300;
+}
+section.white a.scrollbtn_a {
+    bottom: 4em;
 }
 section.white p.scrollbtn_p,
 section.white i.fa {

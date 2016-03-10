@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+@-ms-viewport   {
+    width: device-width;
+}
 
 .btn {
     background-color: transparent;

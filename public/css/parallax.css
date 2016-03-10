@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
+@-ms-viewport	{
+	width: device-width;
+}
+
 .parallax-window {
-	/*height: %; */
 	background-size: cover;  
 	background-attachment: fixed;  
 	background-repeat: no-repeat;
