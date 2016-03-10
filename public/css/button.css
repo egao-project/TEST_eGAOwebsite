@@ -1,25 +1,4 @@
-/*.btn {
-	background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #f90;
-    border-radius: 6px;
-	color: #f90;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    text-decoration: none;
-    padding: 0.5em 1.5em 0.5em 2em;
-    outline: none;
-    width: 10em;
-	color: #f90;
-	letter-spacing: 0.5em;
-	text-align: center;
-}
-.btn:hover {
-    background: #f90;
-    color: #fff;
-    font-weight: bold;
-}
-*/
+
 .btn {
     background-color: transparent;
     border: 1px solid #f90;
@@ -54,26 +33,29 @@
 
 a.scrollbtn_a {
     color: #fff;
-/*    position: absolute;
-    bottom: 5%;
-    left: 48%;*/
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+    right: 0;
     display: block;
     margin: 0;
-    padding: 1em 0 0 0;
+    padding: 0;
     text-align: center;
+    width: 100%;
+    z-index: 10;    
 }
 i.scrollbtn_i {
     color: #fff;
     font-size: 2.5em;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 p.scrollbtn_p {
     color: #fff;
     line-height: 0.6;
     font-size: 1.2em;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0;`
 }
 i.scrollbtn_i:hover,
 p.scrollbtn_p:hover {
