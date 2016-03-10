@@ -296,12 +296,13 @@ header a {
 .egaopj .picup-pj p {
 	font-size: 2em;
 }
-.egaopj .btn{
-	color: #f90;
+.egaopj .btn {
+    border: 2px solid #f90;
+    color: #f90;
 }
-/*.egaopj .btn:hover {
-	color: #fff;
-}*/
+.egaopj .btn:hover {
+    border: 2px solid #f90;
+}
 
 /* RECURITE SECTION */
 .recruit .picup-recuruite {

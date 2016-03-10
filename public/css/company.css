@@ -130,6 +130,15 @@
 .service .btn:hover {
     background: #f90;
 }*/
+.service .btn {
+    border: 1px solid #00552e;
+    color: #00552e;
+}
+.service .btn:hover {
+    border: 1px solid #f90;
+    box-shadow: 0 0 7px #f90;
+    color: #f90;
+}
 
 /* CULTURE SECTION */
 .culture .translucent {

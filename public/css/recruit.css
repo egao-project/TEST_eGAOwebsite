@@ -178,9 +178,7 @@ section.feature {
 	border-bottom: none;
 }
 .feature .column_row1 {
-	border-left: 1em solid #eee;
-	border-right: 1em solid #eee;
-	border-bottom: 1em solid #eee;
+	border: 1em solid #eee;
 	margin: 0;
     padding: 0;
 	-webkit-box-flex: 0;
@@ -276,6 +274,20 @@ section.feature {
 	margin: 0 10px 0 -20px;
 }
 
+/* CONTACT SECTION */
+.contact .container {
+	width: 80%;
+	max-width: 30em;
+}
+.contact .container p {
+	width: 100%;
+}
+.contact .btn {
+    border: 2px solid #f90;
+}
+.contact .btn:hover {
+    border: 2px solid #f90;
+}
 
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
 @media screen and (max-device-width: 1024px) {
