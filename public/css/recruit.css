@@ -33,6 +33,10 @@ video {
 	transition:1s opacity
 }
 
+p.section-subtitle {
+	font-weight: bold;
+}
+
 .wrapper {
 	min-width:100%;
 	min-height:100%;
@@ -290,13 +294,18 @@ section.feature {
 	max-width: 30em;
 }
 .contact .container p {
+	margin: 1em 0;
+	padding: 0;
 	width: 100%;
 }
 .contact .btn {
-    border: 2px solid #f90;
+	/*background-color: #FFF;*/
+    border: 2px solid #00552e;
+    color: #00552e;
 }
 .contact .btn:hover {
     border: 2px solid #f90;
+    color: #f90;
 }
 
 /* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
