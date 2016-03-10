@@ -243,7 +243,7 @@ section.feature {
 
 /* SUMMARY SECTION */
 .summary .container {
-/*	width: 70%;*/
+	width: 80%;
 	max-width: 50em;
 }
 .summary table {
@@ -259,22 +259,32 @@ section.feature {
 	background: #00552e;
 	padding: 10px 20px 10px 20px;
 	font-weight: bold;
-	width: 10em
+	width: 12em
 }
 .summary tr:last-child th  {
 	border-bottom: #00552e 1px solid;
 }
 .summary td {
 	background: #fff;
-	border: #00552e 1px solid;
+	border-top: #00552e 1px solid;
+	border-right: #00552e 1px solid;
+	border-bottom: #00552e 1px solid;
 	text-align: left;
-	padding: 10px 20px 10px 20px;
+	/*padding: 10px 20px 10px 20px;*/
 }
-.summary li {
-	margin: 0 10px 0 -20px;
+.summary td p {
+	margin: 0;
+	margin: 10px 20px 10px 20px;
+}
+.summary td ul {
+	margin: 0;
+	margin: 10px 20px 10px 3px;
 }
 
 /* CONTACT SECTION */
+.contact .translucent {
+	background: rgba(255, 255, 255, 0.4);
+}
 .contact .container {
 	width: 80%;
 	max-width: 30em;
@@ -302,12 +312,5 @@ section.feature {
 
 /* @media */
 @media (min-width: 600px) and (max-width: 820px) {
-		min-width:50%;
-	min-height:50%;
 
 }
-The prefixes are put in line with the latest data support CSS properties in browsers based on site caniuse. You can choose under which browser you need prefixes. At the bottom of the left column there is a filter, with its syntax can be found on my website ymatuhin.ru.
-Select all
-Filter (help in russian):     
-autoprefixer online postcss css vendor prefixes property transition transform perspective user-select linear-gradient webkit moz flex crossbrowser
-Autoprefixer on github by ymatuhin
