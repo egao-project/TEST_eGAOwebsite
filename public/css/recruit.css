@@ -300,7 +300,7 @@ section.feature {
 }
 .contact .btn {
 	/*background-color: #FFF;*/
-    border: 2px solid #00552e;
+    border: 1px solid #00552e;
     color: #00552e;
 }
 .contact .btn:hover {
