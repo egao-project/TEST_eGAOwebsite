@@ -3,11 +3,17 @@
 @-ms-viewport	{
 	width: device-width;
 }
-
+html {
+  position: relative;
+  overflow-x: hidden;
+  z-index: 0;
+}
 body {
-    position: relative;
-    left: 0;
-    overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
+}
+section {
+  overflow-x: hidden;
 }
 
 .slide_menu {
@@ -15,13 +21,17 @@ body {
 }
 
 @media (max-width: 700px) {
+  .body {
+      position: relative;
+      overflow-x: hidden;
+  }
+  .header .container {
+    overflow-x: hidden;
+  } 
+
  	#wide {
 		display: none;
 	}
-.slide_menu {
-	display: block;
-}
-
   #toggle-btn {
     border: none;
     position: fixed;
@@ -30,7 +40,7 @@ body {
     cursor: pointer;
     background: none;
     text-align: right;  
-    z-index: 100;
+    z-index: 1000;
   }
 
   #toggle-btn:focus { /*　クリックしたときの青色の枠線を削除　*/
@@ -38,7 +48,7 @@ body {
   }
 
   #toggle-btn i {
-    color: #00552e;
+    color: #f90;
     float: right;
     font-size: 1.5em;
     margin: 0;
@@ -49,13 +59,15 @@ body {
     display: none;
   }
   .slide_menu {
+    display: block;
     background-color: #00552e;
     position: fixed;
-    top: 3.1em;
-    right: -100vw;
-    width: 100vw;
-    height: 100%;
-    z-index: 10;
+    top: 0;
+    padding: 2em 0 0 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
   }
  .slide_menu ul {
     display: block;
@@ -69,7 +81,7 @@ body {
     float: none;
   }
   .slide_menu li a {
-    font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', sans-serif;
     font-size: 1.5em;
     color: #fff;
     text-align: center;
@@ -79,11 +91,33 @@ body {
   }
   .slide_menu li>ul>li a  {
     line-height: 1em;
-    font-family: 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
     font-size: 1em;
     color: #fff;
     text-align: center;
   }
+  .slide_menu img {
+    display: block;
+    margin: 3em auto 1em auto;
+    width: 10em;
+  }
+  .slide_menu p {
+    color: #fff;
+    max-width: 16em;
+    margin: 1em auto;
+    padding: 0;
+    text-align: center;
+  }
+  .slide_menu p.copyright {
+    border-top: 1px solid #fff;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff;
+    margin: 1em auto;
+    max-width: 80%;
+    padding-top: 1em;
+}
+
 }
 
 

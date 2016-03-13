@@ -1,0 +1,53 @@
+a#scrollbtn {
+	position: absolute;
+	bottom: 1%;
+	left: 49%;
+	color: #fff;
+}
+a#scrollbtn * {
+	color: #fff;
+}
+a#scrollbtn p {
+	font-size: 1em;
+	padding-top: 350px;
+}
+a#scrollbtn span {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	width: 46px;
+	height: 46px;
+	margin-left: -23px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+a#scrollbtn span::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: '';
+	width: 50%;
+	height: 50%;
+	margin: -35% 0 0 -25%;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+a#scrollbtn *:hover,
+a#scrollbtn *:hover::after {
+	color: #f90;
+	border-color: #f90;
+}
+
+/* iPhone iPad 対策（その他スマホや狭いディスプレイも巻き込むけど）*/
+@media screen and (max-device-width: 1024px) {
+	a#scrollbtn {
+		bottom: 3%;
+	}
+	a#scrollbtn p {
+		display: none;
+	}
+}
