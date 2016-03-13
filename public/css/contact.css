@@ -94,6 +94,9 @@
 
 
 /* CONTACT SECTION */
+.contact .translucent {
+	background: rgba(255, 255, 255, 0.8);
+}
 .contact .container {
 	width: 80%;
 	max-width: 30em;
@@ -101,7 +104,15 @@
 .contact .container p {
 	width: 100%;
 }
-
+.contact .btn {
+	/*background-color: #FFF;*/
+    border: 1px solid #00552e;
+    color: #00552e;
+}
+.contact .btn:hover {
+    border: 2px solid #f90;
+    color: #f90;
+}
 
 
 

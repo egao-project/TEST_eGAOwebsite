@@ -7,7 +7,7 @@
 .btn {
     background-color: transparent;
     border: 1px solid #f90;
-    border-radius: 2px;
+    border-radius: 4px;
     color: #f90;
     cursor: pointer;
     display: block;
