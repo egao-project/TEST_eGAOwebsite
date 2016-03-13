@@ -94,6 +94,9 @@
 
 
 /* CONTACT SECTION */
+.contact .translucent {
+	background: rgba(255, 255, 255, 0.8);
+}
 .contact .container {
 	width: 80%;
 	max-width: 30em;

@@ -84,7 +84,7 @@ input[type="text"], textarea,
 input[type="email"], input {
 	outline: none;
 	background: #fff;
-	border: 1px solid #aaa;
+	border: 1px solid #00552e;
 	border-radius: 4px;
 	-webkit-transition: all .3s;
 	transition: all .3s;
@@ -103,11 +103,6 @@ textarea {
 }
 div.narrow {
 	display: none;
-}
-.btn {
-	letter-spacing: 0.2em;
-    /*padding: 5px 1em 6px 1em;*/
-    padding: 5px 1.2em 6px 1em;
 }
 
 /* HEADER SECTION */
