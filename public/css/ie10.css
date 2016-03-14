@@ -1,3 +1,10 @@
+
+@charset "UTF-8";
+
+@-ms-viewport	{
+	width: device-width;
+}
+
 /* IE10以降専用 */
 @media all and (-ms-high-contrast:none) {
 	  *	{
