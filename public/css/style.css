@@ -55,12 +55,14 @@ h3 {
 	max-width: 1000px;
 }
 .section-title {
+	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	letter-spacing: 0.5em;
 	margin: 0em auto 0 auto;
 	text-align: center;
 	padding: 0 0;
 }
 .section-title span {
+	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	margin-right: -0.5em;
 }
 .section-subtitle {
