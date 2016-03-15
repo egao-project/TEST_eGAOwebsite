@@ -202,7 +202,7 @@ header a {
 	display: block;
 	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	letter-spacing: 0.1em;
-	line-height: 1;
+	line-height: 1em;
 	text-align: right;
 	margin: 0;
 	padding: 0 1em 0 0;
@@ -218,7 +218,7 @@ header a {
 	font-weight: 300;
 	font-size: 2.2em;
 	letter-spacing: 0.1em;
-	line-height: 1.2;
+	line-height: 1.1em;
 	text-align: right;
 	padding: 0.5em 3em 0 0;
 	text-shadow:
