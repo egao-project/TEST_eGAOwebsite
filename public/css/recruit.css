@@ -248,6 +248,7 @@ section.feature {
 /* SUMMARY SECTION */
 .summary {
 	background: none;
+	z-index: 10;
 }
 .summary .container {
 	width: 80%;
