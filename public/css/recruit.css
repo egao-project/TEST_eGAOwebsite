@@ -246,9 +246,8 @@ section.feature {
 }
 
 /* SUMMARY SECTION */
-.summary {
-	background: none;
-	z-index: 10;
+section.summary {
+	background-color: #fff;
 }
 .summary .container {
 	width: 80%;
