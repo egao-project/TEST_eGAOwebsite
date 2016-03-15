@@ -201,11 +201,11 @@ header a {
 	color: #fff;
 	display: block;
 	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	line-height: 1.2;
 	text-align: right;
-	margin: 0 -0.2em 0 0;
-	padding: 0;
+	margin: 0;
+	padding: 0 1em 0 0;
 	text-shadow:
 	0px 0px 25px rgba(97, 97, 97, 0.7),
 	0px 0px 20px rgba(97, 97, 97, 0.7);
