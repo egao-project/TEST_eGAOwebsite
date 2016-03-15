@@ -46,7 +46,7 @@ p.section-subtitle {
 .hero .container h1 {
 	font-size: 6.5em;
 	letter-spacing: 0;
-	line-height: 1em;
+	line-height: 1;
 	text-align: center;
 	margin: 0.25em 0;
 	padding: 0;

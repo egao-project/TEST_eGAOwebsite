@@ -91,7 +91,7 @@ section {
     color: #f90;
   }
   .slide_menu li>ul>li a  {
-    line-height: 1em;
+    line-height: 1;
     font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
     font-size: 1em;
     color: #fff;

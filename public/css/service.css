@@ -25,7 +25,7 @@ section {
 .hero h1 {
 	font-size: 5em;
 	letter-spacing: 0.2em;
-	line-height: 1.1em;
+	line-height: 1.1;
 	text-align: center;
 	margin: 0;
 	padding: 0 0 0 0.2em;
@@ -33,7 +33,7 @@ section {
 .hero .container p {
 	color: #fff;
 	font-size: 2.3em;
-	line-height: 1.4em;
+	line-height: 1.4;
 	margin: 0 0 0.3em 0;
 	text-align: center;
 	text-shadow:
@@ -51,7 +51,7 @@ section {
 .hero h2 {
 	font-size: 2em;
 	letter-spacing: 0em;
-	line-height: 1em;
+	line-height: 1;
 	text-align: center;
 	margin: 0 0 0.3em 0;
 	padding: 0;
@@ -153,7 +153,7 @@ section.green *, h2, h3, p {
 }
 .servicemenu .content_new p {
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.4;
 	margin: 0.5em auto 0 auto;
 	padding: 0;
 	text-align: center;
