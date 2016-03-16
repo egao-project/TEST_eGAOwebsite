@@ -192,26 +192,12 @@ section.green *, h2, h3, p {
 	}
 }
 
-@media (min-width: 600px) and (max-width: 820px) {
+@media screen and (min-width: 600px) and (max-width: 820px) {
+
 	/* GENERAL */
-	h1 {
-		font-size: 3.5em;
+	body {
+		font-size: 12px;
 	}
-	h2 {
-		font-size: 1em;
-	}
-	h3 {
-		font-size: 1.5em;
-	}
-
-	/* HERO SECTION*/
-	.hero h1 {
-		font-size: 3.5em;
-	}
-	.hero h2 {
-		font-size: 1.5em;
-	}
-
 }
 
 @media (max-width: 599px) {
