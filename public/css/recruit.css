@@ -24,7 +24,7 @@ video {
 	height: auto;*/
 /*	width:100vw;
 	height:100vh;*/
-	z-index:-10;
+	z-index:-100;
 	-webkit-transform:translateX(-50%) translateY(-50%);
 	transform:translateX(-50%) translateY(-50%);
 	/*background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) no-repeat;*/
@@ -46,7 +46,7 @@ p.section-subtitle {
 .hero .container h1 {
 	font-size: 6.5em;
 	letter-spacing: 0;
-	line-height: 1em;
+	line-height: 1;
 	text-align: center;
 	margin: 0.25em 0;
 	padding: 0;
@@ -246,6 +246,9 @@ section.feature {
 }
 
 /* SUMMARY SECTION */
+section.summary {
+	background-color: #fff;
+}
 .summary .container {
 	width: 80%;
 	max-width: 50em;
