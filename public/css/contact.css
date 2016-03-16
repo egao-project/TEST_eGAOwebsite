@@ -15,7 +15,7 @@
 .hero h1 {
 	font-size: 5em;
 	letter-spacing: 0;
-	line-height: 1.1em;
+	line-height: 1.1;
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -112,6 +112,7 @@
 .contact .btn:hover {
     border: 2px solid #f90;
     color: #f90;
+    padding: 10em 0;
 }
 
 

@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-@-ms-viewport	{
-	width: device-width;
+@-ms-viewport {
+  width: device-width;
 }
+
 html {
   position: relative;
   overflow-x: hidden;
@@ -17,7 +18,7 @@ section {
 }
 
 .slide_menu {
-	display: none;
+  display: none;
 }
 
 @media (max-width: 700px) {
@@ -29,9 +30,9 @@ section {
     overflow-x: hidden;
   } 
 
- 	#wide {
-		display: none;
-	}
+  #wide {
+    display: none;
+  }
   #toggle-btn {
     border: none;
     position: fixed;
@@ -69,14 +70,14 @@ section {
     height: 100vh;
     z-index: 0;
   }
- .slide_menu ul {
+  .slide_menu ul {
     display: block;
     margin: 1em 0 1em 0 ;
- }
+  }
   .slide_menu li {
-  	list-style-type: none;
-  	margin: 0 0 0 -2em;
-  	padding: 0.5em 0;
+    list-style-type: none;
+    margin: 0 0 0 -2em;
+    padding: 0.5em 0;
     text-align: center;
     float: none;
   }
@@ -90,7 +91,7 @@ section {
     color: #f90;
   }
   .slide_menu li>ul>li a  {
-    line-height: 1em;
+    line-height: 1;
     font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
     font-size: 1em;
     color: #fff;
@@ -116,9 +117,5 @@ section {
     margin: 1em auto;
     max-width: 80%;
     padding-top: 1em;
+  }
 }
-
-}
-
-
-

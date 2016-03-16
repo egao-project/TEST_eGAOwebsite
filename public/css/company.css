@@ -12,15 +12,6 @@
 /* HEADER SECTION */
 
 /* HERO SECTION*/
-.hero h1 {
-	font-size: 5em;
-	letter-spacing: 0.1em;
-	padding: 0;
-}
-.hero h2 {
-	font-family: Lato, 'メイリオ', sans-serif;
-	padding: 0.5em 2em 0 0;
-}
 
 /* MESSAGE SECTION */
 .message .container {
