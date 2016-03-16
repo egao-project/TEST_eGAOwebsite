@@ -22,6 +22,9 @@ section {
 /* HEADER SECTION */
 
 /* HERO SECTION*/
+.hero .container {
+	height: 30em;
+}
 .hero h1 {
 	font-size: 5em;
 	letter-spacing: 0.2em;
