@@ -169,8 +169,8 @@ header a {
 	left: 0;
 	margin: auto;
 	text-align: center;
-	height: 50%;
-	width: auto;
+	height: 20em;
+	padding: 0;
 	-webkit-animation-name: 'anime';
 	        animation-name: 'anime';
 	-webkit-animation-duration: 3s;
