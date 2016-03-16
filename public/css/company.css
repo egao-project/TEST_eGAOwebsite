@@ -12,6 +12,9 @@
 /* HEADER SECTION */
 
 /* HERO SECTION*/
+.hero .container {
+	height: 22em;
+}
 
 /* MESSAGE SECTION */
 .message .container {
