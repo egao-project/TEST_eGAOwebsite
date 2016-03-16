@@ -320,6 +320,19 @@ header a {
 }
 
 /* @media */
+@media (min-width: 2080px) {
+	/* GENERAL */
+	body {
+		font-size: 32px;
+	}
+	.container {
+		max-width: 90%
+	}
+	.hero .container {
+		max-width: 90%
+	}
+}
+
 @media screen and (min-width : 1024px) {
 	/* HERO SECTION*/
 	.hero h1 {
