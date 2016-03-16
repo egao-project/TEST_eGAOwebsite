@@ -325,7 +325,7 @@ section.summary {
 /* @media */
 @media (min-width: 600px) and (max-width: 820px) {
 	section.hero {
-		background: url(../img/recruit_top.jpg) #000 no-repeat 70% bottom;
+		background: url(../img/recruit_top.jpg) #000 no-repeat 60% bottom;
 		background-size: auto 100%;
 	}
 	.hero video {
