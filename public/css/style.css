@@ -332,33 +332,6 @@ header a {
 	body {
 		font-size: 12px;
 	}
-/*	h1 {
-		font-size: 3.5em;
-	}
-	h2 {
-		font-size: 2em;
-	}
-	h3 {
-		font-size: 1.5em;
-	}
-*/
-	/* HERO SECTION*/
-/*	.hero h1 {
-		font-size: 3.5em;
-	}
-	.hero h2 {
-		font-size: 1.5em;
-	}*/
-
-	/* COMPANY SECTION */
-/*	.company .column-box p {
-		font-size: 0.8em;
-	}*/
-
-	/* RECURITE SECTION */
-/*	.recruit .picup-recuruite p {
-		font-size: 1em;
-	}*/
 }
 
 @media screen and (max-width: 599px) {
