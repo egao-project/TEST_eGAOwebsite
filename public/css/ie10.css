@@ -8,9 +8,9 @@
 /* IE10以降専用 */
 @media all and (-ms-high-contrast:none) {
 	  *	{
-	  		font-family: 'メイリオ';
+	  		font-family: Lato, 'メイリオ';
 	  }
 	  h2, h3, h4, h5, a, p, span, ul, ol, li {
-	  		font-family: 'メイリオ';
+	  		font-family: Lato, 'メイリオ';
 	  }
 }
