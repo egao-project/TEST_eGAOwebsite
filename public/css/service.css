@@ -255,6 +255,13 @@ section.green *, h2, h3, p {
 	}
 
 	/* HERO SECTION*/
+	.hero {
+		background: url(../img/recruit_top.jpg) #000 no-repeat right center fixed;
+	}
+	.hero video {
+		display: none;
+	}
+
 	.hero h1 {
 		font-size: 2em;
 	}
