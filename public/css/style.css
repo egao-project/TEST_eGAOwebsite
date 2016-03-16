@@ -367,7 +367,10 @@ header a {
 	}
 
 	/* GENERAL */
-	h1 {
+	body {
+		font-size: 10px;
+	}
+/*	h1 {
 		font-size: 2em;
 	}
 	h2 {
@@ -389,10 +392,10 @@ header a {
 	}
 	li {
 		font-size: 0.8em;
-	}
+	}*/
 
 	/* HEADER SECTION*/
-	.header .container:after {
+/*	.header .container:after {
 		content: "";
 		display: block;
 		clear: both;
@@ -408,21 +411,17 @@ header a {
 		float: left;
 		margin: 0;
 		padding: 0.1em;
-	}
-	.header .menu li {
-		/*display: inline-block;*/
-		/*padding-left: 1em;*/
-	}
+	}*/
 
 	/* HERO SECTION*/
-	.hero h1 {
+/*	.hero h1 {
 		font-size: 2em;
 	}
 	.hero h2 {
 		font-size: 1.6em;
 		padding: 0 1.5em 0 0;
 	}
-
+*/
 	/* COMPANY SECTION */
 	.company .column {
 	  -webkit-box-flex: 0;
@@ -432,9 +431,9 @@ header a {
 	}
 
 	/* RECURITE SECTION */
-	.recruit .picup-recuruite p {
+/*	.recruit .picup-recuruite p {
 		text-align: left;
-	}
+	}*/
 
 	/* EGAOpj SECTION */
 
