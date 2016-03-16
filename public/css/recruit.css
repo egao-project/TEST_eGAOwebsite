@@ -192,7 +192,7 @@ section.feature {
 }
 .feature .row1_01 {
 	background-image: url("../img/feature01.jpg");
-	background-position: 0 100;
+	background-position: ;: 0 100;
 	background-size: cover;  
 	background-attachment: scroll;  
 	background-repeat: no-repeat;
@@ -349,5 +349,12 @@ section.summary {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 	}
-
+	.feature .img-column{
+		-webkit-order:1;
+		order:1;
+	}
+	.feature .txt-column{
+		-webkit-order:1;
+		order:1;
+	}
 }
