@@ -68,3 +68,9 @@ p.scrollbtn_p:hover {
     0px 0px 25px rgba(97, 97, 97, 0.7),
     0px 0px 20px rgba(97, 97, 97, 0.7);
 }
+
+@media screen and (max-width: 599px) {
+    a.scrollbtn_a {
+       bottom: 4em;
+    }
+}
