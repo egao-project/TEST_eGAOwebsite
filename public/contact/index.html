@@ -105,20 +105,21 @@
     <div class="translucent">
 	<div class="container">
 		<h2 class="section-title"><span>お問い合わせ</span></h2>
-        <form action="/my-handling-form-page" method="post">
+        <form action="https://form.run/api/v1/r/jwjPgAtUZX2DlEPfmWxE" method="post" class="formrun">
             <p>
                 <label for="name">お名前:</label>
-                <input type="text" id="name" placeholder="お名前" />
+                <input type="text" id="name" placeholder="お名前" name="">
             </p>
             <p>
                 <label for="mail">E-mail:</label>
-                <input type="email" id="mail" placeholder="E-Mail"/>
+                <input type="email" id="mail" placeholder="E-Mail" name="">
             </p>
             <p>
                 <label for="msg">本文:</label>
-                <textarea id="msg" placeholder="本文"></textarea>
+                <textarea id="msg" placeholder="本文" name=""></textarea>
             </p>
             <button type="submit" class="btn">送信</button>
+            <script src="https://sdk.form.run/js/v1/sdk.js"></script>
         </form>
     </div>
 	</div>
