@@ -321,18 +321,18 @@
         <br>履歴書や堅苦しいスーツは不要です。</p>
         <p>eGAOに一方的な面接はありません。eGAOが貴方を選ぶように、貴方にもeGAOを選んで欲しいのです。
         <br>ぜひ、普段の貴方で、普段のeGAOと社員を見に来てください。</p>
-        <form action="/my-handling-form-page" method="post">
+        <form action="https://form.run/api/v1/r/jwjPgAtUZX2DlEPfmWxE" method="post" class="formrun">
             <p>
                 <label for="name">お名前:</label>
-                <input type="text" id="name" placeholder="お名前" />
+                <input type="text" id="name" placeholder="お名前" name="お名前">
             </p>
             <p>
                 <label for="mail">E-mail:</label>
-                <input type="email" id="mail" placeholder="E-Mail"/>
+                <input type="email" id="mail" placeholder="E-Mail" name="メールアドレス">
             </p>
             <p>
                 <label for="msg">本文:</label>
-                <textarea id="msg" placeholder="見学希望日時　*第三候補ほどいただけると幸いです"></textarea>
+                <textarea id="msg" placeholder="見学希望日時　*第三候補ほどいただけると幸いです" name="見学希望日時"></textarea>
             </p>
             <button type="submit" class="btn">送信</button>
         </form>
@@ -403,6 +403,7 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://sdk.form.run/js/v1/sdk.js"></script>
 <script src="../js/nav.js"></script>
 <script type="text/javascript">//ページ内リンク、#非表示。スムーズスクロール
   $('a[href^=#]').click(function(){
