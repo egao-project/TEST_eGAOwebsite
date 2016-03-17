@@ -95,11 +95,11 @@ section#servicemenu05 {
 	background-position: 50% 50%;
 }
 section.white .translucent {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.6);
 	border: 1em solid #fff;
 }
 section.green .translucent {
-	background: rgba(10, 10, 10, 0.5);
+	background: rgba(10, 10, 10, 0.7);
 	border: 1em solid #00552e;
 }
 .servicemenu .container {
