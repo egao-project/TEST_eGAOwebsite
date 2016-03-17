@@ -244,4 +244,11 @@ section.green *, h2, h3, p {
 	      -ms-flex: 0 0 100%;
 	          flex: 0 0 100%;
 	}
+	.servicemenu h2 {
+		font-size: 1.5em;
+	}
+	.servicemenu .content_new h3 {
+		font-size: 1.2em;
+		font-weight: bold;
+	}
 }
