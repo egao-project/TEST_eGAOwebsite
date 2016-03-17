@@ -15,22 +15,13 @@ footer {
 }
 video {
 	position:fixed;
-	top:50%;left:50%;
-/*	right: 0;
-    bottom: 0;*/
+	right: 0;
 	min-width:100%;
 	min-height:100%;
-/*	width: auto;
-	height: auto;*/
-/*	width:100vw;
-	height:100vh;*/
 	z-index:-100;
-	-webkit-transform:translateX(-50%) translateY(-50%);
-	transform:translateX(-50%) translateY(-50%);
-	/*background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) no-repeat;*/
 	background-size: cover;
-	-webkit-transition:1s opacity;
-	transition:1s opacity
+/*	-webkit-transition:1s opacity;
+	transition:1s opacity*/
 }
 
 p.section-subtitle {
@@ -327,8 +318,8 @@ section.summary {
 /* @media */
 @media (min-width: 600px) and (max-width: 820px) {
 	section.hero {
-		background: url(../img/recruit_top.jpg) #000 no-repeat 60% bottom;
-		background-size: auto 100%;
+		background: url(../img/recruit_top.jpg) #000 no-repeat bottom;
+		background-size: cover;
 	}
 	.hero video {
 		display: none;
@@ -338,8 +329,8 @@ section.summary {
 
 @media (max-width: 599px) {
 	section.hero {
-		background: url(../img/recruit_top.jpg) #000 no-repeat 50% bottom;
-		background-size: auto 100%;
+		background: url(../img/recruit_top.jpg) #000 no-repeat bottom;
+		background-size: cover;
 	}
 	.hero video {
 		display: none;

@@ -72,29 +72,34 @@ section {
 section#servicemenu01 {
 	background-image: url("../img/man-people-space-desk.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section#servicemenu02 {
 	background-image: url("../img/webdesign.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section#servicemenu03 {
 	background-image: url("../img/php.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section#servicemenu04 {
 	background-image: url("../img/hdd.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section#servicemenu05 {
 	background-image: url("../img/pj_20160219.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section.white .translucent {
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.4);
 	border: 1em solid #fff;
 }
 section.green .translucent {
-	background: rgba(10, 10, 10, 0.8);
+	background: rgba(10, 10, 10, 0.5);
 	border: 1em solid #00552e;
 }
 .servicemenu .container {
