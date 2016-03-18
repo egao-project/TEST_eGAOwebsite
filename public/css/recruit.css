@@ -188,7 +188,6 @@ section.feature {
 	flex: 0 0 50%;
 }
 .feature .column-box {
-	/*border: 1px solid #555;*/
 	padding: 1em;
 	max-width: 100%;
 	overflow: hidden;
@@ -335,9 +334,13 @@ section.summary {
 	.feature .row1_03 {
 		background-size: 150%;  
 	}
+	.feature .column_row1 {
+		border: 1em  1em 0 1em solid #eee;
+	}
 	.feature .column_row1 .column-box {
 		background-color: #eee;
 		margin: 15em 0 0 0;
+		padding: 1em 0 0 0;
 	}
 	.feature .column_row2 {
 		-webkit-box-flex: 0;
@@ -350,8 +353,8 @@ section.summary {
 		order:1;
 	}
 	.feature .txt-column{
-		-webkit-order:1;
-		order:1;
+		-webkit-order:2;
+		order:2;
 	}
 	.feature .column-box h3 {
 		font-size: 1.2em;
