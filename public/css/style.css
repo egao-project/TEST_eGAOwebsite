@@ -274,6 +274,7 @@ header a {
 	text-align: left;
 }
 .company .column-box h3 {
+	font-family: Test, Lato, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -320,7 +321,7 @@ header a {
 }
 
 /* @media */
-@media (min-width: 2080px) {
+@media screen and (min-width: 2080px) {
 	/* GENERAL */
 	body {
 		font-size: 32px;
@@ -333,7 +334,20 @@ header a {
 	}
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and  (min-width: 1920px) and (max-width: 2079px)  {
+	/* GENERAL */
+	body {
+		font-size: 20px;
+	}
+	.container {
+		max-width: 90%
+	}
+	.hero .container {
+		max-width: 90%
+	}
+}
+
+@media screen and (min-width : 1024px) and (max-width: 1919px)  {
 	/* HERO SECTION*/
 	.hero h1 {
 		font-size: 6em;

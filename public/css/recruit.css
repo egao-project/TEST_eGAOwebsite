@@ -284,7 +284,7 @@ section.summary {
 	.feature .multicolumnbox02,
 	.feature .multicolumnbox03,
 	.feature .multicolumnbox04,
-	.feature .multicolumnbox05 {
+	.feature .multicolumnbox05, {
 		background-attachment: scroll;
 	}
 }
@@ -308,7 +308,7 @@ section.summary {
 		background-size: cover;
 	}
 	.hero .container {
-		height: 20em;
+		height: 16em;
 	}
 	.hero video {
 		display: none;
@@ -320,11 +320,10 @@ section.summary {
 		font-size: 1.2em;
 	}
 
-
 	.promise h3 {
 		font-size: 1.1em;
 	}
-	
+
 	.feature .row1_01 {
 		background-size: 150%;  
 	}

@@ -90,6 +90,11 @@ section#servicemenu04 {
 	background-position: 50% 50%;
 }
 section#servicemenu05 {
+	background-image: url("../img/");
+	background-attachment: fixed;
+	background-position: 20% 50%;
+}
+section#servicemenu06 {
 	background-image: url("../img/pj_20160219.jpg");
 	background-attachment: fixed;
 	background-position: 20% 50%;
