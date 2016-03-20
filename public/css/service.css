@@ -23,7 +23,8 @@ section {
 
 /* HERO SECTION*/
 .hero .container {
-	height: 25em;
+	bottom: 15%;
+	height: 20em;
 }
 .hero h1 {
 	font-size: 5em;
@@ -240,6 +241,9 @@ section.green *, h2, h3, p {
 	}
 	.hero .container p {
 		font-size: 1.4em;
+	}
+	a.scrollbtn_a {
+		display: none;
 	}
 
 	/* SERVICEMENU SECTION */
