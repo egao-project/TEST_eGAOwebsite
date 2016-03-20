@@ -91,9 +91,9 @@ section#servicemenu04 {
 	background-position: 50% 50%;
 }
 section#servicemenu05 {
-	background-image: url("../img/");
+	background-image: url("../img/parepro.jpeg");
 	background-attachment: fixed;
-	background-position: 20% 50%;
+	background-position: 80% 50%;
 }
 section#servicemenu06 {
 	background-image: url("../img/pj_20160219.jpg");
@@ -180,6 +180,7 @@ section.green *, h2, h3, p {
 	margin: 0.5em auto 0 auto;
 	padding: 0;
 	text-align: center;
+	max-width: 17.8em;
 }
 .servicemenu .content p img{
 	width: 1.2em;
@@ -245,8 +246,8 @@ section.green *, h2, h3, p {
 	.hero .container p {
 		font-size: 1.4em;
 	}
-	a.scrollbtn_a {
-		display: none;
+	.hero a.scrollbtn_a {
+    	display: none;
 	}
 
 	/* SERVICEMENU SECTION */
