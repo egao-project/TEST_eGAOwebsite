@@ -20,13 +20,15 @@
 	letter-spacing: 0;
 	line-height: 1.1;
 	text-align: center;
-	margin: 0;
+	margin: 0 0 0.3em 0;
 	padding: 0;
 }
 .hero h2 {
 	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	letter-spacing: 0em;
 	text-align: center;
+	margin: 0;
+	padding: 0.5em 0 0 0;
 	}
 .hero .translucent {;
 	background: rgba(0, 0, 0, 0.2);
@@ -144,10 +146,10 @@
 
 	/* HERO SECTION*/
 	.hero h1 {
-		font-size: 3.5em;
+		font-size: 4em;
 	}
 	.hero h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 
