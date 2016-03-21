@@ -12,6 +12,9 @@
 /* HEADER SECTION */
 
 /* HERO SECTION*/
+.hero .container {
+	height: 22em;
+}
 
 /* MESSAGE SECTION */
 .message .container {
@@ -60,7 +63,7 @@
 	padding: 0;
 }
 
-/* PHILOSOPHY SECTION */
+/* Corporate<br>Philosophy SECTION */
 .phirosophy {
 	background-color: #00552e;
 }
@@ -266,55 +269,25 @@
 	/* HERO SECTION*/
 
 	/* MESSAGE SECTION */
-	.column-box p {
+/*	.column-box p {
 		font-size: 1em;
-	}
+	}*/
 
 	/* PHIROSOPY SECTION */
-	.phirosophy h3 {
-		text-align: left;
-	}
 
 	/* SUMMARY SECTION */
-	.summary table * {
-		font-size: 0.95em;
-	}
 
 	/* ACCESS SECTION */
-	.access .column-box p,
-	.access .column-box li {
-		font-size: 0.8em;
-	}
 
 	/* RECURITE SECTION */
-	.recruit .picup-recuruite p {
+/*	.recruit .picup-recuruite p {
 		font-size: 1em;
-	}
+	}*/
 }
 
 @media (max-width: 599px) {
 
 	/* GENERAL */
-	h1 {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 1.5em;
-	}
-	h3 {
-		font-size: 1.2em;
-	}
-	.container {
-		padding: 2em 0;
-	}
-	.section-title {
-		letter-spacing: 0.2em;
-	}
-	.section-subtitle {
-		font-size: 0.7em;
-		margin: 0 auto 2em auto;
-		text-align: center;
-	}
 
 	/* HEADER SECTION*/
 
@@ -345,19 +318,16 @@
 
 	/* PHIROSOPY SECTION */
 	.phirosophy h3 {
-		font-size: 1.2em;
 		text-align: left;
 	}
 
 	/* SERVICE SECTION */
 	.service h3 {
-		font-size: 1.2em;
 		text-align: left;
 	}
 
 	/* CULTURE SECTION */
 	.culture h3 {
-		font-size: 1.2em;
 		text-align: left;
 	}
 
@@ -390,15 +360,4 @@
 		text-align: left;
 	}
 
-	/* ACCESS SECTION */
-	.access .column{
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 100%;
-		    -ms-flex: 0 0 100%;
-		        flex: 0 0 100%;
-	}
-	.access .column-box p,
-	.access .column-box li {
-		font-size: 0.8em;
-	}
 }
