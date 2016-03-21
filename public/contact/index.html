@@ -106,7 +106,7 @@
     <div class="translucent">
 	<div class="container">
 		<h2 class="section-title"><span>お問い合わせ</span></h2>
-        <form id="mailform" action="https://form.run/api/v1/r/jwjPgAtUZX2DlEPfmWxE" method="post" class="formrun">
+        <form id="mailform" name="mailform" action="https://form.run/api/v1/r/jwjPgAtUZX2DlEPfmWxE" method="post" class="formrun">
             <p>
                 <label class="hide" for="name">お名前:</label>
                 <input type="text" id="name" placeholder="お名前" name="お名前" required="required">
@@ -193,8 +193,10 @@
 <script src="https://sdk.form.run/js/v1/sdk.js"></script>
 
 <script src="../js/nav.js"></script>
+
 <script type="text/javascript">
     function frameClick() {
+        document.mailform.submit();
         document.location.href = "thanks.html#section02";
     }
 </script>
