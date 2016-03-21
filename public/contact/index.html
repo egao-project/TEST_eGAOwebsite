@@ -105,7 +105,7 @@
     <div class="translucent">
 	<div class="container">
 		<h2 class="section-title"><span>お問い合わせ</span></h2>
-        <form id="mailform" action="https://form.run/api/v1/r/jwjPgAtUZX2DlEPfmWxE" method="post" class="formrun">
+        <form action="https://form.run/api/v1/r/jwjPgAtUZX2DlEPfmWxE" method="post" class="formrun autoConfirm">
             <p>
                 <label class="hide" for="name">お名前:</label>
                 <input type="text" id="name" placeholder="お名前" name="お名前" required>
@@ -119,6 +119,7 @@
                 <textarea id="msg" placeholder="本文" name="お問い合わせ"></textarea>
             </p>
             <button type="submit" class="btn">送信</button>
+            <button type="submit" class="btn autoConfirmBack">確認</button>
         </form>
     </div>
 	</div>
@@ -187,10 +188,14 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 <script src="https://sdk.form.run/js/v1/sdk.js"></script>
 
 <script src="../js/nav.js"></script>
 
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.ba-hashchange.min.js"></script>
+<script type="text/javascript" src="js/autoConfirm.js"></script>
 
 <script type="text/javascript">//ページ内リンク、#非表示。スムーズスクロール
   $('a[href^=#]').click(function(){
