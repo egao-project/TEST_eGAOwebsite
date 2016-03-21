@@ -117,7 +117,10 @@
     color: #f90;
 }
 
-
+/* THX SECTION */
+.THX p {
+	text-align: center;
+}
 
 /* @media */
 @media (min-width: 1280px) {
