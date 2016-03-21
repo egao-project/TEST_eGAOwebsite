@@ -27,6 +27,11 @@
 <!--[if lt IE 8]>
 <![endif]-->
 
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.ba-hashchange.min.js"></script>
+<script type="text/javascript" src="js/autoConfirm.js"></script>
+
 <script type="text/javascript" async src="//typesquare.com/accessor/script/typesquare.js?87tvhcInHuw%3D" charset="utf-8"></script>
 </head>
 <body>
@@ -118,8 +123,8 @@
                 <label class="hide" for="msg">本文:</label>
                 <textarea id="msg" placeholder="本文" name="お問い合わせ"></textarea>
             </p>
-            <button type="submit" class="btn">送信</button>
-            <button type="submit" class="btn autoConfirmBack">確認</button>
+            <button type="submit" value="送信" class="btn">送信</button>
+            <button type="button" value="確認" class="btn autoConfirmBack">確認</button>
         </form>
     </div>
 	</div>
@@ -192,10 +197,6 @@
 <script src="https://sdk.form.run/js/v1/sdk.js"></script>
 
 <script src="../js/nav.js"></script>
-
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.ba-hashchange.min.js"></script>
-<script type="text/javascript" src="js/autoConfirm.js"></script>
 
 <script type="text/javascript">//ページ内リンク、#非表示。スムーズスクロール
   $('a[href^=#]').click(function(){
