@@ -27,7 +27,6 @@
 <!--[if lt IE 8]>
 <![endif]-->
 
-
 <script type="text/javascript" async src="//typesquare.com/accessor/script/typesquare.js?87tvhcInHuw%3D" charset="utf-8"></script>
 </head>
 <body>
@@ -119,8 +118,7 @@
                 <label class="hide" for="msg">本文:</label>
                 <textarea id="msg" placeholder="本文" name="お問い合わせ" required="required"></textarea>
             </p>
-            <button type="submit" value="送信" class="btn" onClick="frameClick()">送信</button>
-            <!-- <button type="submit" value="送信" class="btn">送信</button> -->
+            <button type="submit" value="送信" class="btn">送信</button>
         </form>
     </div>
 	</div>
@@ -193,14 +191,6 @@
 <script src="https://sdk.form.run/js/v1/sdk.js"></script>
 
 <script src="../js/nav.js"></script>
-
-<script type="text/javascript">
-    function frameClick() {
-        document.mailform.submit();
-        document.location.href = "thanks.html#section02";
-    }
-</script>
-
 
 <script type="text/javascript">//ページ内リンク、#非表示。スムーズスクロール
   $('a[href^=#]').click(function(){
