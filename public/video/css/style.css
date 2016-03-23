@@ -274,7 +274,9 @@ header a {
 	text-align: left;
 }
 .company .column-box h3 {
-	font-family: Test, Lato, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
+	font-family: Test, Lato, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 

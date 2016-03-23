@@ -20,6 +20,8 @@ video {
 	min-height:100%;
 	z-index:-100;
 	background-size: cover;
+/*	-webkit-transition:1s opacity;
+	transition:1s opacity*/
 }
 
 p.section-subtitle {
@@ -29,6 +31,7 @@ p.section-subtitle {
 .wrapper {
 	min-width:100%;
 	min-height:100%;
+	/*background-color: rgba(100, 100, 100, 0.5);*/
 }
 .hero .container {
 	height: 22em;
@@ -50,8 +53,10 @@ p.section-subtitle {
 	text-align: center;
 }
 .hero h2 {
+	/*font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;*/
 	font-weight: bold;
 	font-size: 2em;	
+	/*display: inline;*/
 	color: #fff;
 	letter-spacing: 0;
 	line-height: 1.8;
