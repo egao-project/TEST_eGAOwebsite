@@ -22,6 +22,10 @@ section {
 /* HEADER SECTION */
 
 /* HERO SECTION*/
+.hero .container {
+	bottom: 15%;
+	height: 20em;
+}
 .hero h1 {
 	font-size: 5em;
 	letter-spacing: 0.2em;
@@ -34,7 +38,7 @@ section {
 	color: #fff;
 	font-size: 2.3em;
 	line-height: 1.4;
-	margin: 0 0 0.3em 0;
+	margin: 0 0 0.5em 0;
 	text-align: center;
 	text-shadow:
 	0px 0px 25px rgba(97, 97, 97, 0.7),
@@ -54,8 +58,7 @@ section {
 	line-height: 1;
 	text-align: center;
 	margin: 0 0 0.3em 0;
-	padding: 0;
-	padding-top: 0.7em;
+	padding: 0.5em 0 0 0;
 	vertical-align: middle;
 }
 .btn {
@@ -70,34 +73,47 @@ section {
 section#servicemenu01 {
 	background-image: url("../img/man-people-space-desk.jpg");
 	background-attachment: fixed;
+	background-position: 50% 100%;
 }
 section#servicemenu02 {
 	background-image: url("../img/webdesign.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section#servicemenu03 {
 	background-image: url("../img/php.jpg");
 	background-attachment: fixed;
+	background-position: 20% 50%;
 }
 section#servicemenu04 {
 	background-image: url("../img/hdd.jpg");
 	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 section#servicemenu05 {
+	background-image: url("../img/parepro.jpeg");
+	background-attachment: fixed;
+	background-position: 80% 50%;
+}
+section#servicemenu06 {
 	background-image: url("../img/pj_20160219.jpg");
 	background-attachment: fixed;
+	background-position: 0% 50%;
 }
 section.white .translucent {
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.6);
 	border: 1em solid #fff;
 }
 section.green .translucent {
-	background: rgba(10, 10, 10, 0.8);
+	background: rgba(10, 10, 10, 0.7);
 	border: 1em solid #00552e;
 }
 .servicemenu .container {
 	width: 80%;
 	max-width: 60em;
+}
+.servicemenu .section-subtitle {
+	width: 80%;
 }
 .servicemenu .content {
 	/*background: rgba(0, 0, 0, 0.3);*/
@@ -164,6 +180,7 @@ section.green *, h2, h3, p {
 	margin: 0.5em auto 0 auto;
 	padding: 0;
 	text-align: center;
+	max-width: 17.8em;
 }
 .servicemenu .content p img{
 	width: 1.2em;
@@ -174,7 +191,7 @@ section.green *, h2, h3, p {
 	font-size: 1.6em;
 	font-weight: 100;
 	text-align: right;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 	padding: 0;
 }
 
@@ -209,6 +226,8 @@ section.green *, h2, h3, p {
 }
 
 @media (max-width: 599px) {
+
+	/* GENERAL */
 	div.wide {
 		display: none;
 	}
@@ -216,54 +235,19 @@ section.green *, h2, h3, p {
 		display: block;
 	}
 
-	/* GENERAL */
-	h1 {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 1.5em;
-	}
-	h3 {
-		font-size: 1.5em;
-	}
-	.section-title {
-		letter-spacing: 0.2em;
-	}
-	.section-subtitle {
-		font-size: 0.7em;
-		margin: 0 auto 2em auto;
-		text-align: center;
-	}
-
-	/* HEADER SECTION*/
-	.header .container:after {
-		content: "";
-		display: block;
-		clear: both;
-	}
-	.header h1 {
-		clear: both;
-		float: left;
-		font-weight: normal;
-		font-size: 1.5em;
-	}
-	.header .menu {
-		clear: both;
-		float: left;
-		margin: 0;
-		padding: 0.1em;
-	}
-
-	/* HERO SECTION*/
+	/* HERO SECTION */
 	.hero h1 {
-		font-size: 2em;
-	}
-	.hero .container p {
-		font-size: 1em;
+		font-size: 2.5em;
 	}
 	.hero h2 {
-		font-size: 1em;
-		padding: 1em 0;
+		font-size: 1.4em;
+		font-weight: 300;
+	}
+	.hero .container p {
+		font-size: 1.4em;
+	}
+	.hero a.scrollbtn_a {
+    	display: none;
 	}
 
 	/* SERVICEMENU SECTION */
@@ -272,5 +256,12 @@ section.green *, h2, h3, p {
 	  -webkit-flex: 0 0 100%;
 	      -ms-flex: 0 0 100%;
 	          flex: 0 0 100%;
+	}
+	.servicemenu h2 {
+		font-size: 1.5em;
+	}
+	.servicemenu .content_new h3 {
+		font-size: 1.2em;
+		font-weight: bold;
 	}
 }

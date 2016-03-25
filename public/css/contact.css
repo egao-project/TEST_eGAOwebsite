@@ -12,22 +12,25 @@
 /* HEADER SECTION */
 
 /* HERO SECTION*/
+.hero .container {
+	top: 20vh;
+}
 .hero h1 {
 	font-size: 5em;
 	letter-spacing: 0;
 	line-height: 1.1;
 	text-align: center;
-	margin: 0;
+	margin: 0 0 0.3em 0;
 	padding: 0;
 }
 .hero h2 {
-	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
 	letter-spacing: 0em;
 	text-align: center;
-	padding: 0;
-	padding-top: 0.7em;
+	margin: 0;
+	padding: 0.5em 0 0 0;
 	}
-	.hero .translucent {;
+.hero .translucent {;
 	background: rgba(0, 0, 0, 0.2);
 }
 
@@ -112,10 +115,12 @@
 .contact .btn:hover {
     border: 2px solid #f90;
     color: #f90;
-    padding: 10em 0;
 }
 
-
+/* THX SECTION */
+.THX p {
+	text-align: center;
+}
 
 /* @media */
 @media (min-width: 1280px) {
@@ -144,10 +149,10 @@
 
 	/* HERO SECTION*/
 	.hero h1 {
-		font-size: 3.5em;
+		font-size: 4em;
 	}
 	.hero h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 
@@ -214,11 +219,10 @@
 
 	/* HERO SECTION*/
 	.hero h1 {
-		font-size: 2em;
+		font-size: 3em;
 	}
 	.hero h2 {
 		font-size: 1.6em;
-		padding: 0 1.5em 0 0;
 	}
 
 	/* ACCESS SECTION */
