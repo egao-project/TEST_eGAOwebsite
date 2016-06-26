@@ -24,7 +24,7 @@
 	padding: 0;
 }
 .hero h2 {
-	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
 	letter-spacing: 0em;
 	text-align: center;
 	margin: 0;
@@ -117,7 +117,10 @@
     color: #f90;
 }
 
-
+/* THX SECTION */
+.THX p {
+	text-align: center;
+}
 
 /* @media */
 @media (min-width: 1280px) {
@@ -216,7 +219,7 @@
 
 	/* HERO SECTION*/
 	.hero h1 {
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 	.hero h2 {
 		font-size: 1.6em;
