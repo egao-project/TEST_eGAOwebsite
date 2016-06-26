@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@-ms-viewport   {
+    width: device-width;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #f90;
+    border-radius: 4px;
+    color: #f90;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1;
+    vertical-align: middle;
+    margin: 1em auto;
+    text-decoration: none;
+    padding: 5px 1em 6px 1em;
+    outline: none;
+    width: 50%;
+    max-width: 20em;
+    text-align: center;
+}
+.btn:hover {
+    background: transparent;
+    border: 1px solid #f90;
+    box-shadow: 0 0 7px #f90;
+    color: #f90;
+    font-weight: bold;
+}
+
+
+a.scrollbtn_a {
+    color: #fff;
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+}
+i.scrollbtn_i {
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding: 0;
+    width: 4em;
+}
+p.scrollbtn_p {
+    color: #fff;
+    line-height: 0.6;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 0;
+    width: 4em;
+}
+i.scrollbtn_i:hover,
+p.scrollbtn_p:hover {
+    color: #f90;
+    text-shadow:
+    0px 0px 25px rgba(97, 97, 97, 0.7),
+    0px 0px 20px rgba(97, 97, 97, 0.7);
+}
+
+@media screen and (min-width: 600px) and (max-width: 820px) {
+    a.scrollbtn_a {
+       bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    a.scrollbtn_a {
+       bottom: 5em;
+    }
+}
