@@ -82,7 +82,7 @@ section {
     float: none;
   }
   .slide_menu li a {
-    font-family:  Test, 'Hiragino Kaku Gothic W8 JIS2004', sans-serif;
+    font-family:  'source-han-sans-japane', sans-serif;
     font-size: 1.5em;
     color: #fff;
     text-align: center;

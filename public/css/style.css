@@ -36,10 +36,10 @@ h1 {
 h2 {
 	font-size: 2.5em;
 	font-weight: normal;
-	font-family: Test, Lato,'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Lato,'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 } 
 h2 span {
-	font-family: Test, Lato, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Lato, 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 }
 h3 {
 	font-size: 2em;
@@ -55,14 +55,14 @@ h3 {
 	max-width: 1000px;
 }
 .section-title {
-	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	letter-spacing: 0.5em;
 	margin: 0em auto 0 auto;
 	text-align: center;
 	padding: 0 0;
 }
 .section-title span {
-	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	margin-right: -0.5em;
 }
 .section-subtitle {
@@ -205,7 +205,7 @@ header a {
 .hero h1 {
 	color: #fff;
 	display: block;
-	font-family: Test, Lato, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Lato, 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	font-weight: 900;
 	letter-spacing: 0.1em;
 	line-height: 1.2;
@@ -274,7 +274,7 @@ header a {
 	text-align: left;
 }
 .company .column-box h3 {
-	font-family: Test, Lato, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
+	font-family: Lato, 'source-han-sans-japane', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
 }
 
 
