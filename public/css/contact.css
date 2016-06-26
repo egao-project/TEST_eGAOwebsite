@@ -25,7 +25,8 @@
 }
 .hero h2 {
 	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
-	letter-spacing: 0em;
+    font-weight: 900;
+   	letter-spacing: 0em;
 	text-align: center;
 	margin: 0;
 	padding: 0.5em 0 0 0;

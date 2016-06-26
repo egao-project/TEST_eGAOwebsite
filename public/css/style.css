@@ -41,6 +41,7 @@ h2 {
 } 
 h2 span {
 	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-weight: 900;
 }
 h3 {
 	font-size: 2em;
@@ -57,6 +58,7 @@ h3 {
 }
 .section-title {
 	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-weight: 900;
 	letter-spacing: 0.5em;
 	margin: 0em auto 0 auto;
 	text-align: center;
@@ -64,6 +66,7 @@ h3 {
 }
 .section-title span {
 	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-weight: 900;
 	margin-right: -0.5em;
 }
 .section-subtitle {
@@ -206,7 +209,7 @@ header a {
 .hero h1 {
 	color: #fff;
 	display: block;
-	font-family: 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+	font-family: Lato, 'source-han-sans-japane', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 	font-weight: 900;
 	letter-spacing: 0.1em;
 	line-height: 1.2;
@@ -276,6 +279,7 @@ header a {
 }
 .company .column-box h3 {
 	font-family: Lato, 'source-han-sans-japane', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
+	font-weight: 900;
 }
 
 
