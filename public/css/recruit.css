@@ -31,12 +31,11 @@ p.section-subtitle {
 	min-height:100%;
 }
 .hero .container {
-	bottom: 10%;
-	height: 20em;
+	height: 22em;
 }
 .hero h1 {
 	font-family: 'source-han-sans-japanese', sans-serif;
-	font-size: 7em;
+	font-size: 8em;
 	letter-spacing: 0;
 	line-height: 1;
 	text-align: center;
