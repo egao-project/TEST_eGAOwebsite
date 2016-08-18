@@ -13,7 +13,7 @@
 
 /* HERO SECTION*/
 .hero .container {
-	top: 20vh;
+	top: 10vh;
 }
 .hero h1 {
 	font-family: 'source-han-sans-japanese', sans-serif;
@@ -126,7 +126,7 @@
 }
 
 /* @media */
-@media screen and (min-width : 821px) {
+@media screen and (min-width : 821px) and (max-width: 1919px)  {
 	/* HERO SECTION*/
 	.hero h1 {
 		font-size: 6em;
