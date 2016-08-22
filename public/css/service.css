@@ -178,9 +178,9 @@ section.green *, h2, h3, p {
 	/*border-top: 1px solid #fff;*/
 	font-size: 1em;
 	margin: 0.5em auto 0 auto;
-	padding: 0;
+	padding: 0 2em 0 2em;
 	text-align: center;
-	max-width: 17.8em;
+	max-width: 90%;
 }
 .servicemenu .content p img{
 	width: 1.2em;
