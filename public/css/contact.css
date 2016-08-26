@@ -13,10 +13,11 @@
 
 /* HERO SECTION*/
 .hero .container {
-	top: 20vh;
+	top: 15vh;
 }
 .hero h1 {
-	font-size: 5em;
+	font-family: 'source-han-sans-japanese', sans-serif;
+	font-size: 7em;
 	letter-spacing: 0;
 	line-height: 1.1;
 	text-align: center;
@@ -24,8 +25,10 @@
 	padding: 0;
 }
 .hero h2 {
-	font-family: Test, 'Hiragino Kaku Gothic W8 JIS2004', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
-	letter-spacing: 0em;
+	font-family: 'source-han-sans-japanese', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ', メイリオ, Meiryo, sans-serif;
+	font-size: 3em;
+    font-weight: 900;
+   	letter-spacing: 0em;
 	text-align: center;
 	margin: 0;
 	padding: 0.5em 0 0 0;
@@ -123,20 +126,33 @@
 }
 
 /* @media */
-@media (min-width: 1280px) {
+@media screen and (min-width : 821px) and (max-width: 1919px)  {
 	/* HERO SECTION*/
 	.hero h1 {
 		font-size: 6em;
+	}
+	.hero h2 {
+		font-size: 3em;
+		font-weight: 300;
+	}
+}
+/* 
+@media (min-width: 1280px) {
+	.hero h1 {
+		font-size: 5em;
 	}
 	.hero h2 {
 		font-size: 2.5em;
 		font-weight: 300;
 	}
 }
-
+*/
 @media (min-width: 600px) and (max-width: 820px) {
 
 	/* GENERAL */
+	body {
+		font-size: 12px;
+	}
 	h1 {
 		font-size: 3.5em;
 	}
@@ -149,10 +165,10 @@
 
 	/* HERO SECTION*/
 	.hero h1 {
-		font-size: 4em;
+		font-size: 6em;
 	}
 	.hero h2 {
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 
