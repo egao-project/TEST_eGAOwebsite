@@ -156,19 +156,26 @@ section.feature {
 }
 .feature .row1_01 {
 	background-image: url("../img/feature01.jpg");
-	background-position: ;: 100% 100%;
+	background-position: 30% 0%;
 	background-size: cover;  
 	background-attachment: scroll;  
 	background-repeat: no-repeat;
 }
 .feature .row1_02 {
+	background-image: url("../img/eWORK.jpg");
+	background-position: 70% 0%;
+	background-size: cover;  
+	background-attachment: scroll;  
+	background-repeat: no-repeat;
+}
+.feature .row1_03 {
 	background-image: url("../img/tfga.JPG");
 	background-position: 50% 0%;
 	background-size: cover;  
 	background-attachment: scroll;  
 	background-repeat: no-repeat;
 }
-.feature .row1_03 {
+.feature .row1_04 {
 	background-image: url("../img/egao_studio01.jpg");
 	background-position: 50% 0%;
 	background-size: cover;  
